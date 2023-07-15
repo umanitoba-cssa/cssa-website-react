@@ -12,6 +12,8 @@
     
 }
 
-.navbar-button-wrapper:not(:first-child) {
-    margin-left: 3rem;
+.desktop-only {
+    .navbar-button-wrapper {
+        margin-right: 3rem;
+    }
 }

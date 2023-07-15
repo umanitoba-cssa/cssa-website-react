@@ -1,7 +1,7 @@
 import { Box, useColorMode } from '@chakra-ui/react';
 import { observer } from 'mobx-react';
 import { Router } from '../Router/Router';
-import './App.css';
+import './App.scss';
 import React from 'react';
 import { BrowserHistory, createBrowserHistory } from 'history';
 import { Navbar } from '../Navbar/Navbar';

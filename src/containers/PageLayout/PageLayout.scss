@@ -4,4 +4,10 @@
     hr {
         margin: 0.7rem 0;
     }
+
+    @media only screen and (max-width: 1275px) {
+        .chakra-container {
+            padding:10px;
+        }
+    }
 }

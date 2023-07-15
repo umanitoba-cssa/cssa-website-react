@@ -1,0 +1,18 @@
+html {
+    background-color: "" !important;
+}
+
+.App {
+    background-color: #020D1F;
+    font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 663px) {
+    .desktop-only { display: none !important; }
+    .mobile-only { display: block !important; }
+ }
+
+ @media only screen and (min-width: 664px) {
+    .desktop-only { display: block !important; }
+    .mobile-only { display: none !important; }
+ }
