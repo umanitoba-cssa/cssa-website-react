@@ -1,0 +1,17 @@
+.navbar-button:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.selected .navbar-button {
+    color: white
+}
+
+.navbar-button {
+    color: gray;
+    
+}
+
+.navbar-button-wrapper:not(:first-child) {
+    margin-left: 3rem;
+}
