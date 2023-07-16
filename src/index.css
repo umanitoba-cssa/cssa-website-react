@@ -14,4 +14,8 @@ code {
 
 * {
   box-sizing: border-box;
+  --cssa-navy: #0a2447;
+  --cssa-blue: #2066b8;
+  --cssa-yellow: #fab416;
+  --cssa-white: #fbfaf9;
 }
