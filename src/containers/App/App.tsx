@@ -4,7 +4,7 @@ import { Router } from '../Router/Router';
 import './App.scss';
 import React from 'react';
 import { BrowserHistory, createBrowserHistory } from 'history';
-import { Navbar } from '../Navbar/Navbar';
+import { Navbar } from '../../components/Navbar/Navbar';
 
 export const HistoryContext = React.createContext<BrowserHistory | null>(null);
 

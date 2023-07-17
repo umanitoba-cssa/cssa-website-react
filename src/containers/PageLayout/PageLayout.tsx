@@ -1,4 +1,4 @@
-import { Box, Container, Heading, Image } from "@chakra-ui/react";
+import { Box, Container, Heading } from "@chakra-ui/react";
 import { observer } from "mobx-react"
 import './PageLayout.scss'
 

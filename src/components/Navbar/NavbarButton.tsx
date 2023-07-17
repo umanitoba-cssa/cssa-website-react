@@ -1,5 +1,5 @@
 import { Box } from "@chakra-ui/react";
-import { NavLink } from "../Router/NavLink"
+import { NavLink } from "../../containers/Router/NavLink"
 import './NavbarButton.scss'
 
 interface INavbarButton {
