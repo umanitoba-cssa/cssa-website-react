@@ -1,12 +1,12 @@
 import { Box, Divider, Heading } from "@chakra-ui/react";
 
-interface INavbarButton {
+interface IDividerHeading {
     title: string;
 }
 
-export const DividerHeading = ({title}: INavbarButton) => {
+export const DividerHeading = ({title}: IDividerHeading) => {
     return (
-        <Box marginTop='3rem'>
+        <Box margin='3rem auto'>
             <Divider />
             <Heading paddingTop={'0.7rem'} borderTop='4px solid #FDB515' as='h1' w='fit-content'>{title}</Heading>
         </Box>
