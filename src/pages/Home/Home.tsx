@@ -20,13 +20,14 @@ export default class Overview extends React.Component {
                 </p>
                 <DividerHeading title='What we do'/>
                 <Teaser title="Advocacy" image="/img/teasers/advocacy.jpg">
-                    The CSSA hosts a variety of events throughout the year for 
-                    CS students to connect, learn, and have fun. Some of our 
-                    events include gamejams, coding competitions, workshops, 
-                    social nights, and more. Whether you want to showcase your 
-                    skills, meet new friends, or explore new opportunities, 
-                    there is an event for you. Check out our social media for 
-                    the latest updates on our events and how to join them!
+                    The CSSA is the official voice of computer science students 
+                    at our university. We advocate for the interests and 
+                    concerns of CS students to the CS department, the faculty of 
+                    science, and the university administration. We work to 
+                    ensure that CS students have a high-quality education and a 
+                    positive academic experience. We also strive to improve the 
+                    CS field and society by promoting diversity, inclusion, and 
+                    equity in computing.
                 </Teaser>
                 <Teaser title="Community" image="/img/teasers/community.jpg">
                     The CSSA is a community of computer science students who 
@@ -44,7 +45,7 @@ export default class Overview extends React.Component {
                 </Teaser>
                 <DividerHeading title='Events'/>
                 <SimpleGrid columns={[1, 1, 2]} spacing={10}>
-                    
+
                 </SimpleGrid>
             </PageLayout>
         );
