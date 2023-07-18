@@ -1,5 +1,8 @@
-import { Box, Container, Heading } from "@chakra-ui/react";
+import { Box, Container, Divider, Heading, HStack, Image, Link, SimpleGrid, Spacer, VStack } from "@chakra-ui/react";
 import { observer } from "mobx-react"
+import { BsDiscord, BsFillEnvelopeFill, BsGithub, BsInstagram } from "react-icons/bs";
+import { Footer } from "../../components/Footer/Footer";
+import { IconText } from "../../components/IconText/IconText";
 import './PageLayout.scss'
 
 interface IPageLayout {
@@ -27,6 +30,7 @@ export const PageLayout = observer(({title, children, image}: IPageLayout) => {
 
             <Container maxW={"container.xl"} padding="2rem 0">
                 {children}
+                <Footer/>
             </Container>
             
         </Box>

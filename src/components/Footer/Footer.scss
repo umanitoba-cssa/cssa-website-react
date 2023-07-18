@@ -1,0 +1,23 @@
+.xl-only {
+    display: none;
+
+    @media only screen and (min-width: 1280px) {
+        display: unset !important;
+    }
+}
+
+.medium-only {
+    display: none;
+
+    @media only screen and (max-width: 1279px) and (min-width: 490px) {
+        display: unset !important;
+    }
+}
+
+.small-only {
+    display: none;
+
+    @media only screen and (max-width: 489px) {
+        display: unset !important;
+    }
+}
