@@ -16,6 +16,10 @@ To get started with development:
 
 [Visual Studio Code](https://code.visualstudio.com/) is recommended for development, however any TypeScript enabled IDE or text editor will work.
 
+### Deploy Website
+
+Simply merge a PR from the `main` branch to the `release` branch. GitHub Actions will automatically deploy the website to GitHub Pages.
+
 ### Export Static Build
 
 If you need to export a static build locally for testing, run `yarn build`.
