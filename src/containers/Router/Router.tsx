@@ -1,7 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import { HistoryRouter } from "./HistoryRouter";
 import { Home } from "../../pages/Home/Home";
-import Team from "../../pages/Team/Team";
+import { Team } from "../../pages/Team/Team";
 import Resources from "../../pages/Resources/Resources";
 import React from "react";
 import { HistoryContext } from "../App/App";
