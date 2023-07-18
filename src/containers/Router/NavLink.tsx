@@ -16,7 +16,7 @@ export const NavLink = ({to, children}: INavLink) => {
     }
 
     return (
-        <div className={selectedPath === to ? "selected" : ""} onClick={onClick}>
+        <div className={selectedPath === to ? "navlink selected" : "navlink "} onClick={onClick}>
             {children}
         </div>
     )
