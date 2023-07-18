@@ -6,6 +6,7 @@ import { ImageCard } from "../../components/ImageCard/ImageCard";
 import { Teaser } from "../../components/Teaser/Teaser";
 import { PageLayout } from "../../containers/PageLayout/PageLayout";
 import { BsInstagram, BsDiscord, BsFillEnvelopeFill } from "react-icons/bs";
+import { EventCard } from "../../components/EventCard/EventCard";
 
 export default class Overview extends React.Component {
     render() {
@@ -49,25 +50,25 @@ export default class Overview extends React.Component {
                 <DividerHeading title='Events'/>
                 {/* This should be dynamic! Hook up to GCalendar or something. Will look into it.*/}
                 <SimpleGrid columns={{sm: 2, md: 2, lg: 3, xl: 4}} spacing={10} justifyContent='center'>
-                    <ImageCard title="CSSA Movie Night" image="/img/events/movienight.jpg" footer="July 20, 5:00PM">
+                    <EventCard title="CSSA Movie Night" image="/img/events/movienight.jpg" time="July 20, 5:00PM" location="Elizabeth Dafoe 160">
                         Join us for a movie night! Vote for the movie you want 
                         to watch on our Discord server.
-                    </ImageCard>
-                    <ImageCard title="CSSA General Meeting" image="/img/events/gm.jpg" footer="August 3, 6:00PM">
+                    </EventCard>
+                    <EventCard title="CSSA General Meeting" image="/img/events/gm.jpg" time="August 3, 6:00PM" location="TBA">
                         Join us for our first general meeting of the year where 
                         we will discuss our constitution rewrite and upcoming 
                         events!
-                    </ImageCard>
-                    <ImageCard title="CSSA Annual General Meeting" image="/img/events/agm.jpg" footer="September 14, 6:00PM">
+                    </EventCard>
+                    <EventCard title="CSSA Annual General Meeting" image="/img/events/agm.jpg" time="September 14, 6:00PM" location="TBA">
                         Join us for our official Annual General Meeting where we
                         will vote on changes to our constitution and discuss
                         upcoming plans for the CSSA!
-                    </ImageCard>
-                    <ImageCard title="CSSA Capture the Flag" image="/img/events/ctf.jpg" footer="September 30, 11:00AM">
+                    </EventCard>
+                    <EventCard title="CSSA Capture the Flag" image="/img/events/ctf.jpg" time="September 30, 11:00AM" location="TBA">
                         Hack away in a high stakes game of Capture the Flag!
                         Compete in teams to solve challenges and win prizes!
                         Join us for our Mixer event to find a team!
-                    </ImageCard>
+                    </EventCard>
                 </SimpleGrid>
             </PageLayout>
         );

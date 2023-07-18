@@ -5,6 +5,12 @@ import './Footer.scss'
 
 export const Footer = () => {
     //im sorry responsive footers are hideous
+    const socials = [
+        (<IconText to="https://forms.office.com/r/MV7BBDBRE0" icon={BsDiscord} title="Discord">Discord Sign-up</IconText>),
+        (<IconText to="https://instagram.com/umanitobacssa" icon={BsInstagram} title="Instagram">@umanitobacssa</IconText>),
+        (<IconText to="mailto:cssa@cs.umanitoba.ca" icon={BsFillEnvelopeFill} title="Email">cssa@cs.umanitoba.ca</IconText>),
+        (<IconText to="https://github.com/umanitoba-cssa" icon={BsGithub} title="Email">@umanitoba-cssa</IconText>)
+    ]
     return (
         <>
             <Divider margin={'2rem 0'} />
@@ -12,10 +18,7 @@ export const Footer = () => {
                 <HStack>
                     <VStack alignItems={'left'}>
                         <SimpleGrid columns={2} spacing={4}>
-                            <IconText icon={BsDiscord} title="Discord">Discord Sign-up</IconText>
-                            <IconText icon={BsInstagram} title="Instagram">@umcssa</IconText>
-                            <IconText icon={BsGithub} title="Email">@umanitobacssa</IconText>
-                            <IconText icon={BsFillEnvelopeFill} title="Email">cssa@umanitoba.ca</IconText>
+                            {socials}
                         </SimpleGrid>
                     </VStack>
                     <Spacer />
@@ -34,10 +37,7 @@ export const Footer = () => {
             <Box className="medium-only">
                 <VStack alignItems={'center'}>
                     <Wrap spacing={4} justify='center'>
-                        <IconText icon={BsDiscord} title="Discord">Discord Sign-up</IconText>
-                        <IconText icon={BsInstagram} title="Instagram">@umcssa</IconText>
-                        <IconText icon={BsGithub} title="Email">@umanitobacssa</IconText>
-                        <IconText icon={BsFillEnvelopeFill} title="Email">cssa@umanitoba.ca</IconText>
+                        {socials}
                     </Wrap>
                     <HStack paddingTop={'1rem'}>
                         <Box fontSize={'sm'}>© Copyright 2023 Computer Science Students' Association</Box>
@@ -49,17 +49,16 @@ export const Footer = () => {
                     <Box textAlign={'center'} fontSize={'sm'}>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a></Box>
                 </VStack>
             </Box>
-            <VStack className="small-only" spacing={4}>
-                <IconText icon={BsDiscord} title="Discord">Discord Sign-up</IconText>
-                <IconText icon={BsInstagram} title="Instagram">@umcssa</IconText>
-                <IconText icon={BsGithub} title="Email">@umanitobacssa</IconText>
-                <IconText icon={BsFillEnvelopeFill} title="Email">cssa@umanitoba.ca</IconText>
-                <Box fontSize={'sm'}>© Copyright 2023 Computer Science Students' Association</Box>
-                <Box fontSize={'sm'}>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a></Box>
-                <Link marginTop={'4'} minWidth={'7rem'} margin='0' rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
-                    <Image marginTop={'4'} alt="Creative Commons Licence" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" />
-                </Link>
-            </VStack>
+            <Box className="small-only">
+                <VStack spacing={4} alignItems='left'>
+                    {socials}
+                    <Box fontSize={'sm'}>© Copyright 2023 Computer Science Students' Association</Box>
+                    <Box fontSize={'sm'}>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a></Box>
+                    <Link marginTop={'4'} minWidth={'7rem'} margin='0' rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+                        <Image marginTop={'4'} alt="Creative Commons Licence" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" />
+                    </Link>
+                </VStack>
+            </Box>
         </>
     )
 }
