@@ -10,11 +10,11 @@ html {
     }
 }
 
-@media only screen and (max-width: 663px) {
+@media only screen and (max-width: 799px) {
     .desktop-only { display: none !important; }
  }
 
- @media only screen and (min-width: 664px) {
+ @media only screen and (min-width: 800px) {
     .mobile-only { display: none !important; }
  }
 

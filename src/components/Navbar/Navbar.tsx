@@ -1,4 +1,4 @@
-import { Box, Container, Flex, Heading, Icon, Image, Spacer } from "@chakra-ui/react";
+import { AspectRatio, Box, Container, Flex, Heading, Icon, Image, Spacer } from "@chakra-ui/react";
 import "./Navbar.scss";
 import { NavbarButton } from "./NavbarButton";
 import { FaBars } from "react-icons/fa";
@@ -23,7 +23,11 @@ export const Navbar = () => {
             <Box className="desktop-only navbar" width="100%" backgroundColor='#020D1F'  color={'white'}>
                 <Container maxW={"container.xl"} display='flex' flexDir='column' justifyContent={'center'} height={'100%'}>
                     <Box display='flex' flexDir='row'>
-                        <NavLink to={'/'}><Image height={'8rem'} src='/img/logo.png' alt="logo"/></NavLink>
+                        <NavLink to={'/'}>
+                            <AspectRatio minW={'8rem'} w='8rem' ratio={1/1}>
+                                <Image boxSize='fit-content' objectFit={'contain'} height={'7.5rem'} src='/img/logo.png' alt="logo"/>
+                            </AspectRatio>
+                        </NavLink>
                         <Box marginLeft={'3rem'} display='flex' flexDir={'column'} justifyContent={'center'} >
                             <Heading marginBottom={'1rem'}>Computer Science Students' Association</Heading>
                             <Box display='flex' flexDir='row'>

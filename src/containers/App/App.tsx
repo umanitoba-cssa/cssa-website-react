@@ -15,6 +15,7 @@ const App = () => {
 
     history?.listen(() => {
         setFlip(!flip);
+        window.scrollTo(0, 0);
     });
 
     const { setColorMode } = useColorMode();
