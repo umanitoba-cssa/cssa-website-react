@@ -42,7 +42,14 @@ export const Navbar = () => {
                     </Box>
                 </Container>
             </Box>
-            <Box className="mobile-only navbar" width="100%" backgroundColor='#020D1F'  color={'white'}>
+            <Box className="mobile-only navbar" width="100%" backgroundColor='#020D1F' color={'white'}>
+                <Flex flexDir='column' justifyContent={'center'}>
+                    <Flex flexDir='row' padding="0.5rem" alignItems='center'>
+                        <Box height={'4rem'}/>
+                    </Flex>
+                </Flex>
+            </Box>
+            <Box position="fixed" top={0} zIndex={100} className="mobile-only navbar" width="100%" backgroundColor='#020D1F'  color={'white'}>
                 <Flex flexDir='column' justifyContent={'center'}>
                     <Flex flexDir='row' padding="0.5rem" alignItems='center'>
                         <Image height={'4rem'} src='/img/logo.png' alt="logo"/>
