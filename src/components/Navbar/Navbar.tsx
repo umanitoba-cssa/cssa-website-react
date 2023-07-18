@@ -1,4 +1,4 @@
-import { Box, Container, Flex, Heading, Icon, Image, Link, Spacer } from "@chakra-ui/react";
+import { Box, Container, Flex, Heading, Icon, Image, Spacer } from "@chakra-ui/react";
 import "./Navbar.scss";
 import { NavbarButton } from "./NavbarButton";
 import { FaBars } from "react-icons/fa";
