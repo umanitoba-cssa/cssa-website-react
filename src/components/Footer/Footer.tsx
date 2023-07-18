@@ -6,10 +6,10 @@ import './Footer.scss'
 export const Footer = () => {
     //im sorry responsive footers are hideous
     const socials = [
-        (<IconText to="https://forms.office.com/r/MV7BBDBRE0" icon={BsDiscord} title="Discord">Discord Sign-up</IconText>),
-        (<IconText to="https://instagram.com/umanitobacssa" icon={BsInstagram} title="Instagram">@umanitobacssa</IconText>),
-        (<IconText to="mailto:cssa@cs.umanitoba.ca" icon={BsFillEnvelopeFill} title="Email">cssa@cs.umanitoba.ca</IconText>),
-        (<IconText to="https://github.com/umanitoba-cssa" icon={BsGithub} title="Email">@umanitoba-cssa</IconText>)
+        (<IconText key='discord' to="https://forms.office.com/r/MV7BBDBRE0" icon={BsDiscord}>Discord Sign-up</IconText>),
+        (<IconText key='instagram' to="https://instagram.com/umanitobacssa" icon={BsInstagram}>@umanitobacssa</IconText>),
+        (<IconText key='email' to="mailto:cssa@cs.umanitoba.ca" icon={BsFillEnvelopeFill}>cssa@cs.umanitoba.ca</IconText>),
+        (<IconText key='github' to="https://github.com/umanitoba-cssa" icon={BsGithub}>@umanitoba-cssa</IconText>)
     ]
     return (
         <>
@@ -53,7 +53,7 @@ export const Footer = () => {
                 <VStack spacing={4} alignItems='left'>
                     {socials}
                     <Box fontSize={'sm'}>© Copyright 2023 Computer Science Students' Association</Box>
-                    <Box fontSize={'sm'}>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a></Box>
+                    <Box fontSize={'sm'}>This work is licensed under a <Link rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</Link></Box>
                     <Link marginTop={'4'} minWidth={'7rem'} margin='0' rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
                         <Image marginTop={'4'} alt="Creative Commons Licence" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" />
                     </Link>

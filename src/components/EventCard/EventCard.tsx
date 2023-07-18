@@ -13,6 +13,9 @@ interface IEventCard {
 }
 
 export const EventCard = ({ title, image, to, time, location, children }: PropsWithChildren<IEventCard>) => {
+
+    const dateText = new Date(time).toLocaleString('en-US', {dateStyle: 'long', timeStyle: 'short'})
+
     const footer = (
         <VStack align={'left'}>
             <HStack>
@@ -21,7 +24,7 @@ export const EventCard = ({ title, image, to, time, location, children }: PropsW
             </HStack>
             <HStack>
                 <Icon as={FaRegClock}/>
-                <Box fontSize={'sm'}>{time}</Box>
+                <Box fontSize={'sm'}>{dateText}</Box>
             </HStack>
         </VStack>
     )

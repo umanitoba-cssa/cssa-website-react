@@ -1,4 +1,4 @@
-import { Box, Divider, Heading, Image, VStack, Text, Spacer, AspectRatio } from "@chakra-ui/react";
+import { Box, Divider, Heading, Image, VStack, Text, Spacer, AspectRatio, Link } from "@chakra-ui/react";
 import { PropsWithChildren } from "react";
 
 interface IImageCard {
@@ -9,6 +9,12 @@ interface IImageCard {
 }
 
 export const ImageCard = ({ title, image, to, footer, children }: PropsWithChildren<IImageCard>) => {
+    const heading = to ? (
+        <Link href={to}><Heading fontSize={'xl'} marginBottom='0.5rem'>{title}</Heading></Link>
+    ) : (
+        <Heading fontSize={'xl'} marginBottom='0.5rem'>{title}</Heading>
+    )
+
     return (
         <Box border='1px solid #DBD4CC' borderRadius='1rem' overflow={'hidden'}>
             <VStack height='100%' alignItems={'left'}>
@@ -16,7 +22,7 @@ export const ImageCard = ({ title, image, to, footer, children }: PropsWithChild
                     <Image src={image} />
                 </AspectRatio>
                 <Box flexGrow={1} p='0.6rem 1rem 0 1rem'>
-                    <Heading fontSize={'xl'} marginBottom='0.5rem'>{title}</Heading>
+                    {heading}
                     <Box fontSize='lg'>{children}</Box>
                 </Box>
                 {footer &&

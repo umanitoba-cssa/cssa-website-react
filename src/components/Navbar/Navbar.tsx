@@ -21,7 +21,7 @@ export const Navbar = () => {
     
     const navbarButtons = pages.map((page) => {
         return (
-            <Box onClick={() => {setMenuOpen(false);}}>
+            <Box key={page.path} onClick={() => {setMenuOpen(false);}}>
                 <NavbarButton key={page.title} to={page.path} label={page.title} />
             </Box>
         )

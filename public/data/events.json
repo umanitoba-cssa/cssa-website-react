@@ -1,0 +1,23 @@
+[
+    {
+        "title": "CSSA Movie Night",
+        "description": "Join us for a movie night! Vote for the movie you want to watch on our Discord server.",
+        "location": "Elizabeth Dafoe 160",
+        "time": "20 Jun 2023 17:30:00 CST",
+        "image": "/img/events/movienight.jpg"
+    },
+    {
+        "title": "CSSA General Meeting",
+        "description": "Join us for our first general meeting of the year where we will discuss our constitution rewrite and upcoming events!",
+        "location": "TBA",
+        "time": "03 Aug 2023 16:30:00 CST",
+        "image": "/img/events/gm.jpg"
+    },
+    {
+        "title": "CSSA Annual General Meeting",
+        "description": "Join us for our official Annual General Meeting where we will vote on changes to our constitution and discuss upcoming plans for the CSSA!",
+        "location": "TBA",
+        "time": "14 Sep 2023 17:30:00 CST",
+        "image": "/img/events/agm.jpg"
+    }
+]
