@@ -1,4 +1,4 @@
-import { Box, Divider, Heading, Image, VStack, Text, Spacer, AspectRatio, HStack, Icon } from "@chakra-ui/react";
+import { Box, VStack, HStack, Icon } from "@chakra-ui/react";
 import { PropsWithChildren } from "react";
 import { ImageCard } from "../ImageCard/ImageCard";
 import { MdOutlineLocationOn } from 'react-icons/md';

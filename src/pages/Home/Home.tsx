@@ -1,11 +1,8 @@
-import { Divider, SimpleGrid, VStack } from "@chakra-ui/react";
+import { SimpleGrid } from "@chakra-ui/react";
 import React from "react";
 import { DividerHeading } from "../../components/DividerHeading/DividerHeading";
-import { IconText } from "../../components/IconText/IconText";
-import { ImageCard } from "../../components/ImageCard/ImageCard";
 import { Teaser } from "../../components/Teaser/Teaser";
 import { PageLayout } from "../../containers/PageLayout/PageLayout";
-import { BsInstagram, BsDiscord, BsFillEnvelopeFill } from "react-icons/bs";
 import { EventCard } from "../../components/EventCard/EventCard";
 
 export default class Overview extends React.Component {
