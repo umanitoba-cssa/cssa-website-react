@@ -1,46 +1,91 @@
-# Getting Started with Create React App
+# CSSA Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+New 2023 website for the CSSA written in Typescript with React and Chakra UI.
 
-## Available Scripts
+## Build and Development
 
-In the project directory, you can run:
+### Setup Local Development
 
-### `yarn start`
+To get started with development:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+1. Download and install [NodeJS LTS Version](https://nodejs.org/en/download)
+2. Clone this git repository
+3. Open a terminal in the cloned folder
+4. Run the command `yarn install`
+5. Launch the development server with `yarn start`
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+[Visual Studio Code](https://code.visualstudio.com/) is recommended for development, however any TypeScript enabled IDE or text editor will work.
 
-### `yarn test`
+### Export Static Build
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+If you need to export a static build locally for testing, run `yarn build`.
 
-### `yarn build`
+## Data
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Update Events
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+You can update the displayed list of events in the file at `./public/data/events.json`. This file should have the following schema:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```json
+[
+    {
+        "title": "string",
+        "description": "string",
+        "location": "string",
+        "time": "date time string*",
+        "image": "img url",
+        "to": "url (optional)"
+    },
+    ...
+]
+```
 
-### `yarn eject`
+\* See [date time string format](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date#date_time_string_format)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+You can simply commit changes to this file to the repo, it is not necessary to rebuild the website for the changes to be displayed.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Update Exec Team List
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+You can update the displayed list of execs in the file at `./public/data/team.json`. This file should ahve the following schema:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```json
+{
+    "execs": [
+        {
+            "name": "string",
+            "position": "string",
+            "image": "img url",
+            "website": "website url (optional)",
+            "instagram": "instagram url (optional)",
+            "linkedin": "linkedin url (optional)",
+            "github": "github url (optional)"
+        },
+        ...
+    ]
+}
+```
 
-## Learn More
+You can simply commit changes to this file to the repo, it is not necessary to rebuild the website for the changes to be displayed.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Update Lounge Canteen Prices
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Lounge canteen prices are automatically pulled and parsed from a CSV file at `./public/data/canteen.csv`. Our current internal sheets document has a tab setup for this, simply download the CSV file for that tab and replace the file. If you don't have this file anymore, the important part is that columns are in the following order with the exact headings displayed:
+
+```
+Items,Sale Price,Category
+```
+
+For example:
+
+```
+Items,Sale Price,Category
+Cheese Cracker Dips,$0.50,Snack
+Freezies,$0.50,Snack
+Chewy Yogurt Granola Bar,$0.75,Snack
+Quaker Chewy Bars,$0.75,Snack
+Dipps Granola Bars,$0.75,Snack
+Nature Valley Granola Bars,$0.75,Snack
+...
+```
+
+The website will automatically group items together by category, with items sorted by price within their category.
