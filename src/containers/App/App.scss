@@ -4,7 +4,10 @@ html {
 
 .App {
     background-color: #020D1F;
-    font-size: 1.5rem;
+
+    .chakra-text {
+        font-size: 1.5rem;
+    }
 }
 
 @media only screen and (max-width: 663px) {

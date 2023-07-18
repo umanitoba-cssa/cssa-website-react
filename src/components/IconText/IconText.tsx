@@ -1,4 +1,4 @@
-import { Box, Heading, HStack, Icon, Link, Text, VStack } from "@chakra-ui/react";
+import { Box, HStack, Icon, Link } from "@chakra-ui/react";
 import { PropsWithChildren } from "react";
 
 interface IIconCard {

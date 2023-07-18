@@ -3,23 +3,13 @@ import "./Navbar.scss";
 import { NavbarButton } from "./NavbarButton";
 import { FaBars } from "react-icons/fa";
 import React from "react";
-
-interface IPageLink {
-    title: string;
-    path: string;
-}
+import { Routes } from "../../utils/Routes";
 
 export const Navbar = () => {
-    // any time you add a page just put it here!
-    const pages: IPageLink[] = [
-        {title: "Home", path: "/"},
-        {title: "Team", path: "/team"},
-        {title: "Resources", path: "/resources"},
-    ]
 
     const [menuOpen, setMenuOpen] = React.useState(false);
     
-    const navbarButtons = pages.map((page) => {
+    const navbarButtons = Routes.map((page) => {
         return (
             <Box key={page.path} onClick={() => {setMenuOpen(false);}}>
                 <NavbarButton key={page.title} to={page.path} label={page.title} />

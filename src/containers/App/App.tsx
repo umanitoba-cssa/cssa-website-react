@@ -1,5 +1,4 @@
 import { Box, useColorMode } from '@chakra-ui/react';
-import { observer } from 'mobx-react';
 import { Router } from '../Router/Router';
 import './App.scss';
 import React from 'react';
@@ -10,7 +9,7 @@ export const HistoryContext = React.createContext<BrowserHistory | null>(null);
 
  
 
-const App = observer(() => {
+const App = () => {
     const [history] = React.useState<BrowserHistory | null>(createBrowserHistory());
     const [flip, setFlip] = React.useState(false);
 
@@ -31,6 +30,6 @@ const App = observer(() => {
             </HistoryContext.Provider>
         </div>
     );
-});
+}
 
 export default App;

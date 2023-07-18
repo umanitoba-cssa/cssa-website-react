@@ -1,20 +1,21 @@
 import { Route, Routes } from "react-router-dom";
 import { HistoryRouter } from "./HistoryRouter";
-import { Home } from "../../pages/Home/Home";
-import { Team } from "../../pages/Team/Team";
-import Resources from "../../pages/Resources/Resources";
 import React from "react";
 import { HistoryContext } from "../App/App";
+import { Routes as RouteMappings } from "../../utils/Routes";
 
 export const Router: React.FC = () => {
     const history = React.useContext(HistoryContext)
+    const routeElems = RouteMappings.map((route) => {
+        return (
+            <Route key={route.path} path={route.path} element={route.component} />
+        )
+    })
 
     return (
         <HistoryRouter history={history}>
             <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/team" element={<Team />} />
-                <Route path="/resources" element={<Resources />} />
+                {routeElems}
             </Routes>
         </HistoryRouter>
     )

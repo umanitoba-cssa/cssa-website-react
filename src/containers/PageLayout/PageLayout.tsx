@@ -1,5 +1,4 @@
 import { Box, Container, Heading } from "@chakra-ui/react";
-import { observer } from "mobx-react"
 import { Footer } from "../../components/Footer/Footer";
 import './PageLayout.scss'
 
@@ -9,7 +8,7 @@ interface IPageLayout {
     image: string;
 }
 
-export const PageLayout = observer(({title, children, image}: IPageLayout) => {
+export const PageLayout = ({title, children, image}: IPageLayout) => {
     return (
         <Box className="pagelayout">
             <Box className="desktop-only">
@@ -33,4 +32,4 @@ export const PageLayout = observer(({title, children, image}: IPageLayout) => {
             
         </Box>
     )
-})
+}
