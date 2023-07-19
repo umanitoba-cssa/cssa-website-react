@@ -11,6 +11,9 @@
 # production
 /build
 
+# secrets
+src/utils/Config.tsx
+
 # misc
 .DS_Store
 .env.local
