@@ -1,7 +1,7 @@
 import { PageLayout } from "../../containers/PageLayout/PageLayout";
 import { DividerHeading } from "../../components/DividerHeading/DividerHeading";
 import YouTubePlaylist from "@codesweetly/react-youtube-playlist";
-import { YOUTUBE_API_KEY } from "../../../Config";
+import { YOUTUBE_API_KEY } from "../../Config";
 import { useEffect, useState } from "react";
 import { Accordion, AccordionButton, AccordionIcon, AccordionItem, AccordionPanel, Box, Tab, Tabs, TabPanel, TabPanels, TabList, Text, Heading, Link, SimpleGrid } from "@chakra-ui/react"
 import { ResourceCard } from "../../components/ResourceCard/ResourceCard";
