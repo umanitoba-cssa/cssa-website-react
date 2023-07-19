@@ -23,5 +23,5 @@
   },
   "include": [
     "src"
-, "Config.tsx"  ]
+, "src/Config.tsx"  ]
 }
