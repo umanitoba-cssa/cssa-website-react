@@ -21,6 +21,29 @@ html {
  img {
     image-rendering: high-quality;
  }
+html {
+    background-color: "" !important;
+}
+
+.App {
+    background-color: #020D1F;
+    font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 663px) {
+    .desktop-only { display: none !important; }
+ }
+
+ .navlink:hover {
+    cursor: pointer;
+ }
+ @media only screen and (min-width: 664px) {
+    .mobile-only { display: none !important; }
+ }
+
+ img {
+    image-rendering: high-quality;
+ }
 
  .navlink:hover {
     cursor: pointer;

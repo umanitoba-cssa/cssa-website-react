@@ -1,6 +1,6 @@
 import { Home } from "../pages/Home/Home";
 import { Lounge } from "../pages/Lounge/Lounge";
-import Resources from "../pages/Resources/Resources";
+import { Resources } from "../pages/Resources/Resources";
 import { Team } from "../pages/Team/Team";
 
 interface IRoute {
