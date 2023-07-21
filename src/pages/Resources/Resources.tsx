@@ -1,7 +1,6 @@
 import { PageLayout } from "../../containers/PageLayout/PageLayout";
 import { DividerHeading } from "../../components/DividerHeading/DividerHeading";
 import YouTubePlaylist from "@codesweetly/react-youtube-playlist";
-import { YOUTUBE_API_KEY } from "../../Config";
 import { useEffect, useState } from "react";
 import { Accordion, AccordionButton, AccordionIcon, AccordionItem, AccordionPanel, Box, Tab, Tabs, TabPanel, TabPanels, TabList, Text, Heading, Link, SimpleGrid } from "@chakra-ui/react"
 import { ResourceCard } from "../../components/ResourceCard/ResourceCard";
@@ -34,7 +33,6 @@ interface IResourceList {
 
 export const Resources = () => {
     const [courses, setCourseTabs] = useState<ICoursePlaylists | undefined>();
-
     useEffect(() => {
         fetch('/data/playlists.json')
             .then(response => response.json())
@@ -64,7 +62,7 @@ export const Resources = () => {
                     </AccordionButton>
                     <AccordionPanel>
                         <YouTubePlaylist
-                            apiKey={YOUTUBE_API_KEY}
+                            apiKey={process.env.REACT_APP_YOUTUBE_API_KEY ?? ""}
                             playlistId={playlist.playlistId}
                             uniqueName={playlist.uniqueName}
                         />
@@ -95,7 +93,7 @@ export const Resources = () => {
 
     const resourceBoxes = resourceList?.resources.map((link, index) => {
         return (
-            <ResourceCard title={link.title} desc={link.desc} url={link.url} />
+            <ResourceCard key={index} title={link.title} desc={link.desc} url={link.url} />
         )
     });
 
@@ -112,7 +110,7 @@ export const Resources = () => {
                 <Text>
                     YouTube lectures and course resources from UofM profs.
                     <br/>
-                    <Link href="mailto:cssa@cs.umanitoba.ca" color={"#fab416"}>See one that we missed? Send us an email!</Link>
+                    <Link href="mailto:cssa@umanitoba.ca" color={"#fab416"}>See one that we missed? Send us an email!</Link>
                 </Text>
 
                 <Tabs marginTop={5}>

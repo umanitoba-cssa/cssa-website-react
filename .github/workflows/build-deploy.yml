@@ -7,6 +7,8 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+        REACT_APP_YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
     steps:
     - uses: actions/checkout@v2
     - name: Deploy react app to github pages

@@ -1907,10 +1907,10 @@
   resolved "https://registry.yarnpkg.com/@chakra-ui/visually-hidden/-/visually-hidden-2.1.0.tgz#9ec573964e5a07f8682574a060140d78e9f91c32"
   integrity sha512-3OHKqTz78PX7V4qto+a5Y6VvH6TbU3Pg6Z0Z2KnDkOBP3Po8fiz0kk+/OSPzIwdcSsQKiocLi0c1pnnUPdMZPg==
 
-"@codesweetly/react-youtube-playlist@^1.0.8":
-  version "1.0.8"
-  resolved "https://registry.npmjs.org/@codesweetly/react-youtube-playlist/-/react-youtube-playlist-1.0.8.tgz"
-  integrity sha512-7ri5XaA1Rul2SchqAWhbCWrNVhWBpninZSbY32spADG82JKq0OnM/PutwKEovbvEq7FFVJUpqqgHKDpF4OIHFA==
+"@codesweetly/react-youtube-playlist@^1.0.10":
+  version "1.0.10"
+  resolved "https://registry.yarnpkg.com/@codesweetly/react-youtube-playlist/-/react-youtube-playlist-1.0.10.tgz#5a4d8fe5749045fa96c017457fb8605d42500df7"
+  integrity sha512-W40A9uxIDZEaaa87AlfjZI8Is+MUYuCEwd0Zycssm3dGxc0ORBsxaxjoojJx+mlNU1Mx3Rc6GTuCcrsVCZf1jw==
   dependencies:
     fslightbox-react "^1.7.4"
     prop-types "^15.8.1"
