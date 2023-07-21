@@ -8,7 +8,7 @@ export const Footer = () => {
     const socials = [
         (<IconText key='discord' to="https://forms.office.com/r/MV7BBDBRE0" icon={BsDiscord}>Discord Sign-up</IconText>),
         (<IconText key='instagram' to="https://instagram.com/umanitobacssa" icon={BsInstagram}>@umanitobacssa</IconText>),
-        (<IconText key='email' to="mailto:cssa@cs.umanitoba.ca" icon={BsFillEnvelopeFill}>cssa@cs.umanitoba.ca</IconText>),
+        (<IconText key='email' to="mailto:cssa@umanitoba.ca" icon={BsFillEnvelopeFill}>cssa@umanitoba.ca</IconText>),
         (<IconText key='github' to="https://github.com/umanitoba-cssa" icon={BsGithub}>@umanitoba-cssa</IconText>)
     ]
     return (

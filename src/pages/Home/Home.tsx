@@ -38,8 +38,8 @@ export const Home = () => {
             <Text>
                 The Computer Science Students’ Association (CSSA) is the
                 official voice and community for computer science students
-                at our university. We represent the interests and concerns
-                of CS students to the CS department, the faculty of science,
+                at the University of Manitoba. We represent the interests and concerns
+                of CS students to the CS department, the Faculty of Science,
                 and the university administration. We also organize events
                 and activities for CS students to network, learn, and have
                 fun. Join us and be part of a vibrant and diverse CS
@@ -49,9 +49,9 @@ export const Home = () => {
             <Teaser title="Advocacy" image="/img/teasers/advocacy.jpg">
                 <Text>
                     The CSSA is the official voice of computer science students
-                    at our university. We advocate for the interests and
-                    concerns of CS students to the CS department, the faculty of
-                    science, and the university administration. We work to
+                    at the University of Manitoba. We advocate for the interests and
+                    concerns of CS students to the CS department, the Faculty of
+                    Science, and the university administration. We work to
                     ensure that CS students have a high-quality education and a
                     positive academic experience. We also strive to improve the
                     CS field and society by promoting diversity, inclusion, and
@@ -60,7 +60,7 @@ export const Home = () => {
             </Teaser>
             <Teaser title="Community" image="/img/teasers/community.jpg">
                 <Text>
-                    The CSSA is a community of computer science students who
+                    We are a community of computer science students who
                     love technology and learning. We help CS students connect
                     with each other and with the CS field. We celebrate the
                     diversity and achievements of our CS community. We also
@@ -70,10 +70,13 @@ export const Home = () => {
             </Teaser>
             <Teaser title="Support" image="/img/teasers/support.jpg">
                 <Text>
-                    The CSSA will empower the computer science student community
-                    with representation, resources, and opportunities to enhance
-                    their academic journey and their careers in the field of
-                    computing.
+                    Through representation, resources, and opportunities, the 
+                    CSSA will empower the computer science student community 
+                    to enhance their academic journey and their careers in the field of 
+                    computing. We help CS students with their academic 
+                    challenges and questions, and also help CS students with 
+                    their career plans and choices. We have resources and people 
+                    who can assist CS students with their needs and interests.
                 </Text>
             </Teaser>
             <DividerHeading title='Events' />
