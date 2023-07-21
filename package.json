@@ -54,7 +54,7 @@
     ]
   },
   "devDependencies": {
-    "@codesweetly/react-youtube-playlist": "^1.0.8",
+    "@codesweetly/react-youtube-playlist": "^1.0.10",
     "@types/uuid": "^9.0.0"
   }
 }
