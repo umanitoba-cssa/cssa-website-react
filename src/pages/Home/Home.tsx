@@ -1,5 +1,5 @@
 import { SimpleGrid, Text } from "@chakra-ui/react";
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { DividerHeading } from "../../components/DividerHeading/DividerHeading";
 import { Teaser } from "../../components/Teaser/Teaser";
 import { PageLayout } from "../../containers/PageLayout/PageLayout";
