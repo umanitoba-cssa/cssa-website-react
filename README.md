@@ -93,3 +93,6 @@ Nature Valley Granola Bars,$0.75,Snack
 ```
 
 The website will automatically group items together by category, with items sorted by price within their category.
+
+# Image Credits
+- [Images by pch.vector]("https://www.freepik.com/free-vector/diverse-crowd-people-different-ages-races_7732608.htm#page=2&query=meeting&position=12&from_view=search&track=sph") on Freepik
