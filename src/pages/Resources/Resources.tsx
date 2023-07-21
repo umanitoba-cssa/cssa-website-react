@@ -115,7 +115,7 @@ export const Resources = () => {
 
                 <Tabs marginTop={5}>
                     <Box overflow='auto'>
-                        <TabList w='max-content'>
+                        <TabList w='max-content' minW='100%'>
                             {courseTabs}
                         </TabList>
                     </Box>
