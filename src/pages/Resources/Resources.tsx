@@ -41,7 +41,7 @@ export const Resources = () => {
     }, []);
 
     const courseTabs = courses?.collection.map((category, index) => {
-        return (<Tab key={index}>{category.category}</Tab>)
+        return (<Tab maxW='40vw' key={index}>{category.category}</Tab>)
     })
     const courseTabPanels = courses?.collection.map((category, tabIndex) => {
         const playlistCollections = category.playlists.map((playlist, plIndex) => {
@@ -114,9 +114,11 @@ export const Resources = () => {
                 </Text>
 
                 <Tabs marginTop={5}>
-                    <TabList>
-                        {courseTabs}
-                    </TabList>
+                    <Box overflow='auto'>
+                        <TabList w='max-content'>
+                            {courseTabs}
+                        </TabList>
+                    </Box>
                     <TabPanels>
                         {courseTabPanels}
                     </TabPanels>
