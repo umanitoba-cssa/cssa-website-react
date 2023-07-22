@@ -6,12 +6,10 @@ export const Contact = () => {
     return (
         <Box>
             <IframeResizer
-                heightCalculationMethod="lowestElement"
                 src="https://forms.office.com/Pages/ResponsePage.aspx?id=C92AT4wzTE6KFJBEaWL3uMetWVcCpo5KtSmErSAZ7GlUM1JYMFNPNURWWENLSzFONE5ZWUlURzNZOC4u&embed=true"
-                style={{width: "1px", minWidth: "100%", minHeight: "100vh"}}
-                allowFullScreen
-                scrolling={false}>
-            </IframeResizer>
+                // Apparently the `width: "1px", minWidth: "100%"` is a workaround for iOS behaviour?
+                style={{width: "1px", minWidth: "100%", maxHeight: "100vh"}}
+            />
             <Footer/>
         </Box>
     );
