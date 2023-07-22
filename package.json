@@ -5,6 +5,7 @@
   "dependencies": {
     "@chakra-ui/icons": "^2.0.15",
     "@chakra-ui/react": "^2.8.0",
+    "@codesweetly/react-youtube-playlist": "^1.0.10",
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
     "@testing-library/jest-dom": "^5.14.1",
@@ -15,8 +16,10 @@
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
     "bonjour": "^3.5.0",
+    "emailjs": "^4.0.2",
     "framer-motion": "^8.0.2",
     "history": "^5.3.0",
+    "iframe-resizer-react": "^1.1.0",
     "mobx-react": "^9.0.0",
     "react": "^18.2.0",
     "react-datepicker": "^4.8.0",
@@ -54,7 +57,6 @@
     ]
   },
   "devDependencies": {
-    "@codesweetly/react-youtube-playlist": "^1.0.10",
     "@types/uuid": "^9.0.0"
   }
 }
