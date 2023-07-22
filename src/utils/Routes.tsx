@@ -1,3 +1,4 @@
+import { Contact } from "../pages/Contact/Contact";
 import { Home } from "../pages/Home/Home";
 import { Lounge } from "../pages/Lounge/Lounge";
 import { Resources } from "../pages/Resources/Resources";
@@ -29,5 +30,10 @@ export const Routes: IRoute[] = [
         title: 'Lounge',
         path: '/lounge',
         component: (<Lounge/>)
+    },
+    {
+        title: 'Contact Us',
+        path: '/contact',
+        component: (<Contact/>)
     }
 ]
