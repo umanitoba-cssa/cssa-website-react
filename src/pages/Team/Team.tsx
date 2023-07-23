@@ -44,7 +44,7 @@ export const Team = () => {
     });
 
     return (
-        <PageLayout title="Team" image="/img/backgrounds/team.jpg">
+        <PageLayout title="Team" image="/img/backgrounds/team.png">
             <DividerHeading title="Executive Team"/>
             <Wrap justify={'center'} spacing={5}>
                 {teamCards}
