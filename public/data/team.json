@@ -39,7 +39,9 @@
         {
             "name": "Mark Lysack",
             "position": "Director of Student Affairs",
-            "image": "/img/team/mark.jpg"
+            "image": "/img/team/mark.jpg",
+            "linkedin": "https://github.com/umanitoba-cssa/cssa-website-react.git",
+            "github": "https://github.com/lysackm"
         },
         {
             "name": "Ayesha Qadir",

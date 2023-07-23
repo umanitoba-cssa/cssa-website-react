@@ -101,14 +101,14 @@ export const Resources = () => {
         <PageLayout title="Resources" image="/img/backgrounds/resources.png">
             <DividerHeading title="Degree Resources"/>
                 <Text>
-                    Questions about courses, programs, or co-op? Try these!
+                    Questions about courses, programs, or Computer Science Co-op? Try these!
                 </Text>
                 <SimpleGrid gap={2} margin={5} >
                     {resourceBoxes}
                 </SimpleGrid>
             <DividerHeading title="Course Help"/>
                 <Text>
-                    YouTube lectures and course resources from UofM profs.
+                    YouTube lectures and course resources from University of Manitoba professors.
                     <br/>
                     <Link href="mailto:cssa@umanitoba.ca" color={"#fab416"}>See one that we missed? Send us an email!</Link>
                 </Text>
