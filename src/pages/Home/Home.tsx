@@ -65,7 +65,7 @@ export const Home = () => {
                     with each other and the industry. We celebrate the
                     diversity and achievements of our CS community. We also
                     organize events and activities for CS students to network,
-                    where they will hopefully build relationships that last 
+                    where they can build relationships that last 
                     beyond their university career. Come join us and visit our
                     CS lounge!
                 </Text>
