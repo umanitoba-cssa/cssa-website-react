@@ -1,4 +1,4 @@
-import { AspectRatio, Box, Container, Flex, Heading, Icon, Image, Spacer } from "@chakra-ui/react";
+import { AspectRatio, Box, Container, Flex, Heading, Icon, Image, Spacer, Wrap } from "@chakra-ui/react";
 import "./Navbar.scss";
 import { NavbarButton } from "./NavbarButton";
 import { FaBars } from "react-icons/fa";
@@ -30,9 +30,9 @@ export const Navbar = () => {
                         </NavLink>
                         <Box marginLeft={'3rem'} display='flex' flexDir={'column'} justifyContent={'center'} >
                             <Heading marginBottom={'1rem'}>Computer Science Students' Association</Heading>
-                            <Box display='flex' flexDir='row'>
+                            <Wrap>
                                 {navbarButtons}
-                            </Box>
+                            </Wrap>
                         </Box>
                     </Box>
                 </Container>
