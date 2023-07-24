@@ -2,6 +2,7 @@ import { Contact } from "../pages/Contact/Contact";
 import { Home } from "../pages/Home/Home";
 import { Lounge } from "../pages/Lounge/Lounge";
 import { Resources } from "../pages/Resources/Resources";
+import { Sponsors } from "../pages/Sponsors/Sponsors";
 import { Team } from "../pages/Team/Team";
 
 interface IRoute {
@@ -32,7 +33,12 @@ export const Routes: IRoute[] = [
         component: (<Lounge/>)
     },
     {
-        title: 'Contact Us',
+        title: 'Sponsor Us',
+        path: '/sponsor',
+        component: (<Sponsors/>)
+    },
+    {
+        title: 'Contact',
         path: '/contact',
         component: (<Contact/>)
     }
