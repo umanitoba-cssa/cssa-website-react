@@ -46,7 +46,7 @@ export const Home = () => {
                 community!
             </Text>
             <DividerHeading title='What we do' />
-            <Teaser title="Advocacy" image="/img/teasers/advocacy.jpg">
+            <Teaser title="Advocacy" image="/img/teasers/advocacy2.jpg">
                 <Text>
                     The CSSA is the official voice of computer science students
                     at the University of Manitoba. We advocate for the interests and
