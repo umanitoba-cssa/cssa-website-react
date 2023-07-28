@@ -1,17 +1,17 @@
 [
     {
-        "title": "CSSA Movie Night",
-        "description": "Join us for a movie night! Vote for the movie you want to watch on our Discord server.",
-        "location": "Elizabeth Dafoe 160",
-        "time": "27 Jun 2023 17:30:00 CDT",
-        "image": "/img/events/movienight.jpg"
-    },
-    {
         "title": "CSSA General Meeting",
-        "description": "Join us for our first general meeting of the year where we will discuss our constitution rewrite and upcoming events!",
-        "location": "TBA",
+        "description": "Join us for our first general meeting of the year where we will discuss our constitution rewrite and upcoming events! We'll have pizza and our movie night for the week right afterwards.",
+        "location": "Armes 209 (SSA Lounge)",
         "time": "03 Aug 2023 16:30:00 CDT",
         "image": "/img/events/gm.jpg"
+    },
+    {
+        "title": "CSSA Movie Night",
+        "description": "Join us for a movie night! Vote for the movie you want to watch on our Discord server.",
+        "location": "Armes 209 (SSA Lounge)",
+        "time": "03 Aug 2023 17:30:00 CDT",
+        "image": "/img/events/movienight.jpg"
     },
     {
         "title": "CSSA Annual General Meeting",
