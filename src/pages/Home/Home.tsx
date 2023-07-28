@@ -8,7 +8,8 @@ import { EventCard } from "../../components/EventCard/EventCard";
 interface IEventData {
     title: string;
     image: string;
-    time: string;
+    start: string;
+    end: string;
     location: string;
     to?: string;
     description: string;
@@ -24,14 +25,15 @@ export const Home = () => {
             .catch(error => console.error(error));
     }, []);
 
-    const eventCards = events.map((event, index) => {
+    const eventCards = events.filter((event) => {
+        return new Date(event.end) > new Date();
+    }).map((event, index) => {
         return (
-            <EventCard key={index} title={event.title} image={event.image} time={event.time} location={event.location} to={event.to}>
+            <EventCard key={index} title={event.title} image={event.image} time={event.start} location={event.location} to={event.to}>
                 {event.description}
             </EventCard>
         );
     });
-
 
     return (
         <PageLayout title="Home" image="/img/backgrounds/home.jpg">
