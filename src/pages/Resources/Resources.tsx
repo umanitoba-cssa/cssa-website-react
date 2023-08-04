@@ -31,6 +31,16 @@ interface IResourceList {
     resources: IResource[];
 }
 
+interface IArchive {
+    title: string;
+    date: string;
+    url: string;
+}
+
+interface IArchiveList {
+    archives: IArchive[];
+}
+
 export const Resources = () => {
     const [courses, setCourseTabs] = useState<ICoursePlaylists | undefined>();
     useEffect(() => {
@@ -97,6 +107,26 @@ export const Resources = () => {
         )
     });
 
+    const [archiveList, setArchiveList] = useState<IArchiveList | undefined>();
+
+    useEffect(() => {
+        fetch('/data/archiveLinks.json')
+            .then(response => response.json())
+            .then(json => setArchiveList(json))
+            .catch(error => console.error(error));
+    }, []);
+
+    const archiveItems = archiveList?.archives.map(item => {
+        const dateText = new Date(item.date).toLocaleString('en-US', {dateStyle: 'long'})
+        return(
+            <Box fontSize={'sm'}>
+                <li>
+                    <Link href={item.url}>{item.title} ({dateText})</Link>
+                </li>
+            </Box>
+        )
+    })
+
     return (
         <PageLayout title="Resources" image="/img/backgrounds/resources.png">
             <DividerHeading title="Degree Resources"/>
@@ -123,6 +153,14 @@ export const Resources = () => {
                         {courseTabPanels}
                     </TabPanels>
                 </Tabs>
+                
+            <DividerHeading title="Meeting archives" />
+                <Text>
+                    Find recordings and transcripts of our general meetings.
+                </Text>
+                <SimpleGrid gap={2} margin={5}>
+                    {archiveItems}
+                </SimpleGrid>
         </PageLayout>
     );
 }
