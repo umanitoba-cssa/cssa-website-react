@@ -2,8 +2,9 @@ import { PageLayout } from "../../containers/PageLayout/PageLayout";
 import { DividerHeading } from "../../components/DividerHeading/DividerHeading";
 import YouTubePlaylist from "@codesweetly/react-youtube-playlist";
 import { useEffect, useState } from "react";
-import { Accordion, AccordionButton, AccordionIcon, AccordionItem, AccordionPanel, Box, Tab, Tabs, TabPanel, TabPanels, TabList, Text, Heading, Link, SimpleGrid } from "@chakra-ui/react"
+import { Accordion, AccordionButton, AccordionIcon, AccordionItem, AccordionPanel, Box, Tab, Tabs, TabPanel, TabPanels, TabList, Text, Heading, Link, SimpleGrid, HStack } from "@chakra-ui/react"
 import { ResourceCard } from "../../components/ResourceCard/ResourceCard";
+import { LinkIcon } from "@chakra-ui/icons";
 
 interface IPlaylist {
     title: string;
@@ -35,6 +36,7 @@ interface IArchive {
     title: string;
     date: string;
     url: string;
+    filename: string;
 }
 
 interface IArchiveList {
@@ -118,10 +120,17 @@ export const Resources = () => {
 
     const archiveItems = archiveList?.archives.map(item => {
         const dateText = new Date(item.date).toLocaleString('en-US', {dateStyle: 'long'})
+        const transcriptUrl = `data/transcripts/${item.filename}.txt`
         return(
             <Box fontSize={'sm'}>
                 <li>
-                    <Link href={item.url}>{item.title} ({dateText})</Link>
+                    <HStack>
+                        <Heading fontSize={'md'}>{item.title} ({dateText})</Heading>
+                        <LinkIcon/>
+                        <Link href={item.url} isExternal>YouTube</Link>
+                        <LinkIcon/>
+                        <Link href={transcriptUrl} isExternal>View Transcript </Link>
+                    </HStack>
                 </li>
             </Box>
         )
