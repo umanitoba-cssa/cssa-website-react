@@ -4,7 +4,7 @@
         "description": "Join us for a movie night! Vote for the movie you want to watch on our Discord server.",
         "location": "Armes 209 (SSA Lounge)",
         "start": "07 Sept 2023 17:30:00 CDT",
-        "end": "07 Sept 2023 17:30:00 CDT",
+        "end": "07 Sept 2023 19:30:00 CDT",
         "image": "/img/events/movienight.jpg"
     },
     {
@@ -15,8 +15,8 @@
         "end": "14 Sep 2023 17:30:00 CDT",
         "image": "/img/events/agm.jpg"
     },{
-        "title": "IISD Hackathon",
-        "description": "IISD is hosting a hackathon open to students where you will get a chance to take part in a week long coding event",
+        "title": "ELA Hackathon",
+        "description": "ELA is hosting a hackathon open to students where you will get a chance to take part in a week long coding event",
         "location": "University of Winnipeg and online",
         "start": "October 23 2023 9:00 CDT",
         "end": "November 6 2023 17:00 CDT",
