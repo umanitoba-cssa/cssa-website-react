@@ -4,6 +4,7 @@ import { Lounge } from "../pages/Lounge/Lounge";
 import { Resources } from "../pages/Resources/Resources";
 import { Sponsors } from "../pages/Sponsors/Sponsors";
 import { Team } from "../pages/Team/Team";
+import { Email } from "../pages/Email/Email";
 
 interface IRoute {
     path: string;
@@ -41,5 +42,10 @@ export const Routes: IRoute[] = [
         title: 'Contact',
         path: '/contact',
         component: (<Contact/>)
+    },
+    {
+        title: '',
+        path: '/Email',
+        component: (<Email/>)
     }
 ]
