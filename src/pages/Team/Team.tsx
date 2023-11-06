@@ -3,6 +3,8 @@ import { useEffect, useState } from "react";
 import { DividerHeading } from "../../components/DividerHeading/DividerHeading";
 import { ProfileCard } from "../../components/ProfileCard/ProfileCard";
 import { PageLayout } from "../../containers/PageLayout/PageLayout";
+import { Text } from "@chakra-ui/react"
+
 
 interface IProfile {
     name: string;
@@ -17,6 +19,11 @@ interface IProfile {
 interface ITeam {
     execs: IProfile[];
 }
+
+    const iframeStyles = {
+        minHeight: '1500px',
+        border: '1px solid gray'
+    } as any;
 
 export const Team = () => {
     const [team, setTeam] = useState<ITeam | undefined>();
@@ -49,6 +56,12 @@ export const Team = () => {
             <Wrap justify={'center'} spacing={5}>
                 {teamCards}
             </Wrap>
+
+            <DividerHeading title="Councillor applications"/>
+                <Text>
+                    Volunteer for the CSSA using our form!
+                </Text>
+                <iframe title="Google Form" style={iframeStyles} width='100%' src="https://docs.google.com/forms/d/e/1FAIpQLSc1rSmphVcWbrER0zmroJHql6n7w5hpLSIDRHCZ6fSTMSqetA/viewform?embedded=true">Loading…</iframe>
         </PageLayout>
     );
 }
