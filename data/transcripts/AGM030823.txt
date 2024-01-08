@@ -1,0 +1,403 @@
+﻿# Exported by Aegisub 3.2.2
+MIA: Ok, we all good?
+Thanks everyone for coming out!
+It's really great. We were expecting, like, two people to show up,
+so this is really nice.
+So, we have pizza on the way,
+as soon as that comes, feel free to--
+we'll probably break the meeting, I don't know,
+you can get up and grab some pizza if you're hungry.
+Next slide please.
+
+Oh, yeah, I do want to say before we get started,
+we are streaming this,
+and we're also going to record it
+and hopefully archive it on our website after the meeting.
+So if you chime in or get in the audio,
+just let us know if you don't want to be in it,
+we can cut your part out, but it shouldn't be that big of a deal.
+Anyway, so we'll start off with a quick introduction with
+who we are as a student group,
+and who we have on Council this year.
+If you didn't get the chance to spend time with us this summer,
+we'll also recap some of what we had going on
+and what we have still going on in the month of August.
+We've already got some exciting plans for the rest of the term,
+so stay tuned to hear more about what we have in mind for you.
+And then, probably the most important topic we have today
+is that we want to revamp our constitution
+to better serve computer science students,
+because we are one of the biggest and most diverse
+and fastest-growing communities on campus.
+Nothing we bring up in this section is final,
+we're still discussing ideas and would love to get your feedback
+on the directions that we're headed so far.
+Next slide.
+
+LYLE: There we go.
+
+AYESHA: First of all, for anyone who doesn't know,
+what even is the CSSA?
+We're the official for computer science students here at the U of M
+to support computer science students in their undergraduate degrees, basically.
+We work to maintain a friendly, welcoming, and supportive environment
+and we voice your concerns
+and relay your perspectives
+to the Department of Computer Science and the wider Faculty.
+As Mia mentioned, we aim to help
+all of you computer science students
+in any way we can,
+whether through advice with courses,
+or navigating through the co-op program, which is notoriously difficult,
+all of those things.
+Alright!
+
+MIA: So, should we go in order, or just...
+
+MARK: Down the couch. Start with Ayesha, and then...
+
+MIA: Couch order?
+
+MARK: Couch order.
+
+AYESHA: Ok, yeah!
+First is me, Ayesha.
+I'm the Director of Advocacy.
+We'll explain what that means later.
+
+ISHAM: I'm Isham, I'm a Co-president.
+
+MIA: I'm Mia, I'm the other Co-president.
+
+MARK: Mark, Student Affairs.
+
+ETHAN: I'm Ethan, I'm Lounge Affairs.
+
+NOAH: I'm Noah, Director of Events.
+
+LYLE: And me, not facing you guys,
+I'm Lyle, I'm Director Internal.
+
+MIA: Ok!
+So, we had a lot of fun this summer!
+Huge thank you to everybody who made it out to our barbecue in July.
+We were really happy to see some new faces
+and it's a miracle that the weather worked out so nicely.
+For those of you who couldn't make it,
+we'll have more ways to meet and mingle with your classmates and professors,
+so you can look forward to that.
+We also redid our website!
+It lists some more information about us,
+shows off the events we've got coming up,
+and it has helpful links and lecture videos
+as well as a feedback form for you to tell us
+your concerns, ideas, and suggestions,
+both about the website, and then just about
+the lounge, the CSSA more generally,
+so the URL for that is umanitobacssa.ca.
+Probably should have linked it, but
+you can find it later. It's not too hard to find.
+And speaking of events we've got coming up,
+we've been doing movie nights all summer long,
+and the next one is right after this!
+So we hope you can stay and enjoy the show.
+That'll be Mark heading that up.
+I'm sure he'll talk to you about it later.
+And, next slide.
+
+NOAH: Alright, so looking further ahead,
+we're going to be kicking off the year with
+a back-to-back set of events:
+a mixer and a Capture the Flag competition.
+If you've never participated in one before, basically,
+a Capture the Flag is a type of security competition
+where your goal is to solve programming and security challenges
+and earn as many points as you can within the time limit.
+This is going to be an all-day, in-person,
+team-oriented event, and we plan to have lots of prizes
+so I do recommend that you give it a shot if you can.
+Now, we know this is going to be held at the start of the year,
+and people will still be settling into their classes
+and making new friends,
+especially students in first year.
+So to help get to know each other
+and form teams for the event,
+we're going to also be holding a mixer
+the Friday evening before the competition.
+We're going to have snacks,
+and you can come socialize and make more friends.
+We're currently expecting to hold the CTF around a month into Fall term,
+so follow our Discord and our Instagram
+for the date when we pick it
+and any other details as we share them.
+Next slide.
+
+MARK: Ok, so,
+right now,
+we are revamping our constitution.
+So, why we are doing that is because
+last year, the CSSA basically went--
+the sunset clause of our whole constitution came into effect
+because there was not an Annual General Meeting held for a full year.
+So now, that meant that
+we now aren't officially recognized
+by UMSU.
+So what we have done already this year--already done--
+is we have submitted a
+preliminary constitution to UMSU.
+So that is done; that is out of the way.
+But what we are working on now is
+coming up with amendments to that constitution,
+and then we are going to submit that--
+I think the pizza's here, almost--
+so, we're going to [make those] amendments to the constitution,
+and have that new constitution ready
+for our official Fall Annual General Meeting
+in the first three weeks of September, something like that.
+I think the 18th.
+I've been known to have off-by-one errors on my dates.
+[laughs]
+So, yeah. We're going to show you a bunch of new changes,
+these are not changes that are in our current proposed constitution
+that has already been submitted to UMSU,
+these are going to be constitution changes
+to our upcoming constitution
+which you, the people, can vote on in September.
+Sure, go to the next slide.
+
+Our first thing, actually another little thing,
+like, why bother?
+Right? Like, why be recognized by UMSU?
+Why do we care?
+More or less, it gives us more access to funding,
+resources by UMSU,
+room bookings, equipment, like this room, this equipment,
+things like that.
+And it also guarantees some stability for the CSSA
+in the following years.
+Another thing that we're changing in the upcoming constitution
+is that we are going to be changing when the CSSA elections happen.
+So, last term, they happened
+during finals week. That's not going to happen this term.
+We're going to be pushing that back
+at least a month, officially,
+we're going to put that in the constitution,
+most likely it's going to be, like, a month and a half.
+I got here: I think it's going to be mid...
+Election period will finish mid-March, most likely;
+the election process will happen in the middle of February.
+So if you're interested in participating in that,
+that is the timeline
+that you're working with.
+And there's some new people here, which is exciting,
+and if you want to run for CSSA, like,
+just do it, man, it's
+not-- not too hard.
+[laughter]
+So yeah.
+That's more or less the thing.
+So the big thing with this is, officially,
+there's going to be some smaller details,
+and I said we're going to release this new constitution
+at the beginning of September
+you're going to have three weeks to review it,
+and then you're going to vote on it during that meeting.
+So if you want to, look at the nitty-gritty, but the TL;DR is
+three weeks before the end of the Winter term
+is when we will hold our election.
+Next slide.
+
+NOAH: Alright, so like Mark said,
+it's never too early to consider running for exec,
+especially since we're going to be pitching three new positions here today.
+So note that, first of all,
+these aren't in our constitution yet; we're still
+drafting it up and thinking about it to eventually vote on it,
+but if we do decide to add them to our constitution,
+these new positions won't be filled
+until the next election cycle.
+So they're going unfilled this year, and then they'll get filled for next year.
+Also, the time estimates that we're showing here, they're pretty liberal.
+The upper bounds are just to give you an idea
+of how much that you may be putting in every now and then,
+just so you can make sure that you can actually fit these positions
+into your schedule if you decide to run.
+So, the first new role is the Vice President role.
+So while the President is a pretty forward-facing role,
+and they still end up being the primary liaison
+to other clubs, the Department, and beyond,
+the Vice President might take on more behind-the-scenes tasks:
+so overseeing day-to-day operations,
+or touching base with individual Council members.
+Of course, the two roles will probably share a lot of duties,
+a big part is that Vice President is expected
+to take on the President's job in their absence.
+So if you are looking to try out a leadership role
+but you're worried about-- maybe you lack some experience,
+Vice President may be a good fit for you.
+We also want to propose a Director of Finances role
+specifically for managing CSSA spending and accounts.
+This used to be part of the Director of Internal Affairs role,
+but it's kind of a big undertaking,
+and we think it deserves its own dedicated position on Council.
+The role would work with the Director of Lounge Affairs
+to manage supplies' costs, and
+and also work with the Director of Events to plan event budgets.
+And more broadly, you'll also be working with banks
+and potential sponsors for our events.
+You might also notice the wildly varying time commitment here:
+the position would likely be a lot more active
+during event planning and execution,
+and then the amount of time that you have to commit
+will die down a little bit when there's no major events in planning.
+Next slide.
+
+MIA: Ok.
+So we said we're pitching three positions;
+there are four. We are only pitching three.
+Director of Advocacy is actually one of the roles
+that's already in our constitution.
+You may have noticed that that's the role Ayesha is filling.
+So, that's something we recently added
+to formally include the Women in Computer Science,
+or WICS, Interclub Liaison
+into our voting members.
+However, being a voting member of two student groups is--
+it's a lot of work.
+So in the future, we want to include it as
+an elected position on its own.
+This role focuses on advocating for
+marginalized groups in computer science,
+giving students who feel underrepresented
+a dedicated voice on the CSSA Council.
+This role might work more closely with other student groups,
+like WICS, and WICS' own Interclub Liaison
+to help their members feel included
+in the wider computer science community.
+Also, our pizza just got here,
+so if you'd like to take a quick break,
+get up and grab some pieces--
+What do we have? We have...
+What kind of pizzas do we have?
+
+ISHAM: We have Hawaiian, pepperoni,
+veggie, cheese, barbecue chicken,
+I think that's it.
+
+MIA: That's it.
+
+ISHAM: And there's a "wild card."
+I forgot which one that was.
+
+MIA: Ok, perfect! So yeah,
+you can feel free to get up and
+grab some, I'll wait until people start settling down
+and then we'll get into the rest of it.
+MIA: Ok, cool! So while you guys eat your pizza,
+I'm going to continue talking about
+our other role that we're going to pitch.
+So last but not least,
+we are thinking of adding a Director of Promotions role
+for managing our website and social media pages.
+This role would work closely with the Director of Events
+to help make graphics, posters,
+or messages advertising the CSSA's activities
+throughout the year.
+They'd also monitor our social media pages,
+keep the website up-to-date,
+and pass on word about our activities to the Department,
+along with anything they think could help us reach more people.
+This would hypothetically be more of an entry-level position;
+the base time commitment is for
+passively monitoring social media and website maintenance,
+and then it would also take on a more active role
+when events are happening. As we'll get into on the next slide, though,
+we are still discussing amongst ourselves
+whether we want to take this approach to promotions, or something else.
+
+AYESHA: I'll get into that in a second.
+But the big thing is,
+we are announcing a new way to get involved:
+Councillors and committees.
+So these would be positions where you would
+volunteer for certain events or different duties
+I'll explain in a second.
+This would be a--
+We intend to have a year-round application,
+like a form, for the Councillor position--
+which is non-voting, by the way.
+Part of what you do as a Councillor is
+join committees that we make throughout the year,
+perhaps to organize a certain event,
+supervise the lounge, or
+help with the website, promotion...
+We're thinking of having a Councillor application form
+on the website where you can
+sign up for active committees,
+or if there aren't any, you can just
+sign up as a sort of "floating volunteer"
+and talk about what you are willing to volunteer for,
+any duties you'd like to have.
+One thing, as Mia mentioned, we're discussing is
+whether or not promotions should be handled
+by their own Director, or by a committee.
+Having a committee for promotions would allow for
+more Councillors to try out the position,
+which would be cool, but there's a lot of things
+within that position that might be
+more easily done by one single person
+just leading it on their own.
+If you have any opinions, this is where you'd use the
+feedback form: we'd love to hear-- or just talk to us after;
+we'd love to hear what you have to say.
+Another thing:
+Under the Director of Advocacy,
+we want to have Community Advocates.
+These would also essentially just be Councillors,
+but Community Advocates specifically--
+there are five roles
+that correspond to the UMSU-recognized communities.
+So: Women; the 2SLGBTQIA+ community;
+BIPOC students, people of colour,
+specifically Black, Indigenous, and Racialized Advocates;
+students with disabilities;
+international; and then mature students.
+So we would ideally have a position for each of these communities,
+and if you belong to them, you could
+bring yourself on, and say,
+"Hey, I want to advocate for my community in this way,"
+and they would all answer to the Director of Advocacy.
+It's a really nice way to get involved, and
+it's just cool. I'm really excited about this!
+[laughs] Anyway,
+Community Advocates would be free to
+with any other Councillor duties;
+you're not limited to one single thing,
+but they have the extra expectation of, again,
+working with the Director of Advocacy
+and other executives, where applicable,
+to make sure marginalized students' voices are heard.
+As Mia mentioned,
+we're one of the largest-growing communities,
+and I think keeping that community inclusive and progressive
+is very important.
+
+ISHAM: Ok, so definitely a lot of information,
+so reach out to us on our website or social media
+if you have any questions, concerns, or ideas later on.
+But if anybody has something they'd like to contribute right now,
+we'd love for you to share.
+
+MIA: Ok, so that's all for today
+thanks again everyone for coming by,
+we really hope to see you again in the lounge,
+in class, or at our other events,
+like the movie night that's happening in T-25 minutes!
+Have a great evening,
+feel free to grab some more pizza on your way out, if you'd like,
+you can also stay and mingle.
+We're going to cut off the recording now, so
+all hell can break loose and whatnot, but...
+Thanks so much!
+
+LYLE: Thank you, everyone!
