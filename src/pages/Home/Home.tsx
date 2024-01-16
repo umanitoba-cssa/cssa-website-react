@@ -13,6 +13,7 @@ interface IEventData {
     location: string;
     to?: string;
     description: string;
+    status: string;
 }
 
 export const Home = () => {
@@ -29,7 +30,7 @@ export const Home = () => {
         return new Date(event.end) > new Date();
     }).map((event, index) => {
         return (
-            <EventCard key={index} title={event.title} image={event.image} time={event.start} location={event.location} to={event.to}>
+            <EventCard key={index} title={event.title} image={event.image} time={event.start} location={event.location} to={event.to} status={event.status}>
                 {event.description}
             </EventCard>
         );
