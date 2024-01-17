@@ -2,7 +2,6 @@ import { Box, VStack, HStack, Icon } from "@chakra-ui/react";
 import { PropsWithChildren } from "react";
 import { ImageCard } from "../ImageCard/ImageCard";
 import { MdOutlineLocationOn } from 'react-icons/md';
-import { MdErrorOutline } from 'react-icons/md'
 import { FaRegClock } from 'react-icons/fa';
 
 interface IEventCard {
@@ -30,7 +29,7 @@ export const EventCard = ({ title, image, to, time, location, children, status}:
                 <Box fontSize={'sm'}>{dateText}</Box>
             </HStack>
             <HStack>
-                <Box fontSize={'sm'}fontWeight={'800'}>{status}</Box>
+                <Box fontSize={'md'}fontWeight={'800'}>{status}</Box>
             </HStack>
         </VStack>
     )
