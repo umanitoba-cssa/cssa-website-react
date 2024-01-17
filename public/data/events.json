@@ -4,12 +4,12 @@
         "to": "/movienight/",
         "description": "Join us for a movie night! Vote for the movie you want to watch on our Discord server. Click on the title to learn more.",
         "location": "Dafoe Library Room 160",
-        "start": "18 Jan 2024 17:00:00 CDT",
+        "start": "18 Jan 2024 17:30:00 CST",
         "end": "18 Jan 2024 19:30:00 CST",
         "image": "/img/events/movienight.jpg",
         "moviename" : "Teen Beach Movie",
-        "poster": "/img/events/movienightposter.jpg",
-        "status": "a"
+        "poster": "/img/events/movieposters/teenbeachmovie.png",
+        "status": ""
     },
     "meeting":{
         "title": "CSSA Winter 2024 General Meeting",
