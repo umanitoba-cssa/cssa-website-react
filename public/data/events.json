@@ -17,7 +17,17 @@
         "location": "Armes 209 (SSA Lounge)",
         "start": "22 Jan 2024 17:00:00 CST",
         "end": "22 Jan 2024 18:00:00 CST",
-        "image": "/img/events/agm.jpg",
+        "image": "/img/events/agmw24.png",
+        "status": ""
+    },
+    "statsseminar":{
+        "title": "Statistics seminar: Dr. Sara Rouhani",
+        "to": "https://eventscalendar.umanitoba.ca/site/science/event/statistics-seminar-dr-sara-rouhani---toward-a-decentralized-paradigm-using-blockchain-technology/",
+        "description": "Dr. Sara Rouhani, assistant professor in the department of computer science at UM, will present a seminar titled “Toward a decentralized paradigm using blockchain technology.\"",
+        "location": "Armes 200",
+        "start": "18 Jan 2024 14:45:00 CST",
+        "end":"18 Jan 2024 15:45:00 CST",
+        "image": "/img/events/statsseminar.png",
         "status": ""
     }
 }
