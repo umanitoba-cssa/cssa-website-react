@@ -44,7 +44,7 @@ export const MovieNight = () => {
                         {movie.status} <br />
                     </Text>
                     <Text>
-                        The CSSA is trying to host weekly nights! <br />
+                        The CSSA is trying to host bi-weekly nights! <br />
                         <br />
                         Our next movie night we are watching: {movie.moviename}<br />
                         The movie will be on {startTime} and be hosted in the {movie.location} <br />
