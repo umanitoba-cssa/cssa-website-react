@@ -13,27 +13,31 @@ interface IEventData {
     location: string;
     to?: string;
     description: string;
+    status: string;
 }
 
 export const Home = () => {
     const [events, setEvents] = useState<IEventData[]>([]);
 
     useEffect(() => {
-        fetch('/data/events.json')
+                fetch('/data/events.json')
             .then(response => response.json())
-            .then(json => setEvents(json))
+            .then(json => {
+            const eventArray = Object.values(json[0]) as IEventData[];
+            setEvents(eventArray);
+    })
             .catch(error => console.error(error));
-    }, []);
+  }, []);
 
     const eventCards = events.filter((event) => {
         return new Date(event.end) > new Date();
-    }).map((event, index) => {
+  }).map((event, index) => {
         return (
-            <EventCard key={index} title={event.title} image={event.image} time={event.start} location={event.location} to={event.to}>
-                {event.description}
-            </EventCard>
-        );
-    });
+    <EventCard key={index} title={event.title} image={event.image} time={event.start} location={event.location} to={event.to} status={event.status}>
+      {event.description}
+    </EventCard>
+  );
+});
 
     return (
         <PageLayout title="Home" image="/img/backgrounds/home.jpg">

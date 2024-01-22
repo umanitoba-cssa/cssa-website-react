@@ -5,6 +5,7 @@ import { Resources } from "../pages/Resources/Resources";
 import { Sponsors } from "../pages/Sponsors/Sponsors";
 import { Team } from "../pages/Team/Team";
 import { Email } from "../pages/Email/Email";
+import { MovieNight } from "../pages/MovieNight/MovieNight";
 
 interface IRoute {
     path: string;
@@ -47,5 +48,10 @@ export const Routes: IRoute[] = [
         title: '',
         path: '/Email',
         component: (<Email/>)
+    },
+    {
+        title: '',
+        path: '/MovieNight',
+        component: (<MovieNight/>)
     }
 ]

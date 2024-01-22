@@ -1,25 +1,34 @@
-[
-    {
+[ {
+    "movie": {
         "title": "CSSA Movie Night",
-        "description": "Join us for a movie night! Vote for the movie you want to watch on our Discord server.",
-        "location": "Armes 209 (SSA Lounge)",
-        "start": "07 Sept 2023 17:30:00 CDT",
-        "end": "07 Sept 2023 19:30:00 CDT",
-        "image": "/img/events/movienight.jpg"
+        "to": "/movienight/",
+        "description": "Join us for a movie night! Vote for the movie you want to watch on our Discord server. Click on the title to learn more.",
+        "location": "Dafoe Library Room 160",
+        "start": "18 Jan 2024 17:00:00 CST",
+        "end": "18 Jan 2024 19:30:00 CST",
+        "image": "/img/events/movienight.jpg",
+        "moviename" : "Teen Beach Movie",
+        "poster": "/img/events/movieposters/teenbeachmovie.png",
+        "status": ""
     },
-    {
-        "title": "CSSA Annual General Meeting",
-        "description": "Join us for our official Annual General Meeting where we will vote on changes to our constitution and discuss upcoming plans for the CSSA!",
-        "location": "TBA",
-        "start": "14 Sep 2023 16:30:00 CDT",
-        "end": "14 Sep 2023 17:30:00 CDT",
-        "image": "/img/events/agm.jpg"
-    },{
-        "title": "ELA Hackathon",
-        "description": "ELA is hosting a hackathon open to students where you will get a chance to take part in a week long coding event",
-        "location": "University of Winnipeg and online",
-        "start": "October 23 2023 9:00 CDT",
-        "end": "November 6 2023 17:00 CDT",
-        "image": "/img/events/IISD.png"
+    "meeting":{
+        "title": "CSSA Winter 2024 General Meeting",
+        "description": "Join us for our official Winter 2024 General Meeting where we will vote on changes to our constitution and discuss upcoming plans for the CSSA!",
+        "location": "Armes 209 (SSA Lounge)",
+        "start": "22 Jan 2024 17:00:00 CST",
+        "end": "22 Jan 2024 18:00:00 CST",
+        "image": "/img/events/agmw24.png",
+        "status": ""
+    },
+    "aiseminar": {
+        "title": "Next Steps with Generative AI",
+        "to": "https://news.umanitoba.ca/exploring-the-ethics-and-future-of-generative-ai/",
+        "description": "Experts in generative AI technology will share their insights into artistic and academic opportunities along with legal and ethical implications of generative AI. Click on the title to register.",
+        "location": "Degrees Diner / Virtual",
+        "start": "31 Jan 2024 19:00:00 CST",
+        "end": "31 Jan 2024 20:30:00 CST",
+        "image": "/img/events/generativeai.png",
+        "status": ""
     }
+}
 ]
