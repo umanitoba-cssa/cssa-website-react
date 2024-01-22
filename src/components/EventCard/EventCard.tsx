@@ -10,12 +10,14 @@ interface IEventCard {
     time: string;
     location: string;
     to?: string;
+    status: string;
 }
 
-export const EventCard = ({ title, image, to, time, location, children }: PropsWithChildren<IEventCard>) => {
+export const EventCard = ({ title, image, to, time, location, children, status}: PropsWithChildren<IEventCard>) => {
 
     const dateText = new Date(time).toLocaleString('en-US', {dateStyle: 'long', timeStyle: 'short'})
 
+    
     const footer = (
         <VStack align={'left'}>
             <HStack>
@@ -26,8 +28,12 @@ export const EventCard = ({ title, image, to, time, location, children }: PropsW
                 <Icon as={FaRegClock}/>
                 <Box fontSize={'sm'}>{dateText}</Box>
             </HStack>
+            <HStack>
+                <Box fontSize={'md'}fontWeight={'800'}>{status}</Box>
+            </HStack>
         </VStack>
     )
+
     return (
         <ImageCard title={title} image={image} to={to} footer={footer}>
             {children}
