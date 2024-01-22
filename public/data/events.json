@@ -1,14 +1,4 @@
 [ {
-    "statsseminar":{
-        "title": "Statistics seminar: Dr. Sara Rouhani",
-        "to": "https://eventscalendar.umanitoba.ca/site/science/event/statistics-seminar-dr-sara-rouhani---toward-a-decentralized-paradigm-using-blockchain-technology/",
-        "description": "Dr. Sara Rouhani, assistant professor in the department of computer science at UM, will present a seminar titled “Toward a decentralized paradigm using blockchain technology.\"",
-        "location": "Armes 200",
-        "start": "18 Jan 2024 14:45:00 CST",
-        "end":"18 Jan 2024 15:45:00 CST",
-        "image": "/img/events/statsseminar.png",
-        "status": ""
-    },
     "movie": {
         "title": "CSSA Movie Night",
         "to": "/movienight/",
@@ -29,7 +19,16 @@
         "end": "22 Jan 2024 18:00:00 CST",
         "image": "/img/events/agmw24.png",
         "status": ""
+    },
+    "aiseminar": {
+        "title": "Next Steps with Generative AI",
+        "to": "https://news.umanitoba.ca/exploring-the-ethics-and-future-of-generative-ai/",
+        "description": "Experts in generative AI technology will share their insights into artistic and academic opportunities along with legal and ethical implications of generative AI. Click on the title to register.",
+        "location": "Degrees Diner / Virtual",
+        "start": "31 Jan 2024 19:00:00 CST",
+        "end": "31 Jan 2024 20:30:00 CST",
+        "image": "/img/events/generativeai.png",
+        "status": ""
     }
-    
 }
 ]
