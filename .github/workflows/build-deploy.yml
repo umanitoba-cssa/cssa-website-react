@@ -10,6 +10,6 @@ jobs:
     env:
         REACT_APP_YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v4
     - name: Deploy react app to github pages
       uses: tanwanimohit/deploy-react-to-ghpages@v1.0.1
