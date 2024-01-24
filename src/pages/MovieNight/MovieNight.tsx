@@ -1,8 +1,6 @@
 import { Text, AspectRatio, Image } from "@chakra-ui/react";
 import { useEffect, useState } from "react";
 import { PageLayout } from "../../containers/PageLayout/PageLayout";
-import { EventCard } from "../../components/EventCard/EventCard";
-import { error } from "console";
 
 interface IMovieData {
     movie: string;
@@ -36,7 +34,7 @@ export const MovieNight = () => {
         <PageLayout title="Movie Nights" image="/img/backgrounds/home.jpg">
             {movies.map((movie, index) => {
                 const startTime = new Date(movie.start).toLocaleString('en-US', { dateStyle: 'long', timeStyle: 'short' });
-                const endTime = new Date(movie.end).toLocaleString('en-US', { dateStyle: 'long', timeStyle: 'short' });
+                //const endTime = new Date(movie.end).toLocaleString('en-US', { dateStyle: 'long', timeStyle: 'short' });
 
                 return (
                     <div key={index}>
