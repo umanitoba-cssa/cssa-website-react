@@ -24,7 +24,7 @@ export const Footer = () => {
                     <Spacer />
                     <VStack alignItems={'right'}>
                         <HStack>
-                            <Box fontSize={'sm'}>© Copyright 2023 Computer Science Students' Association</Box>
+                            <Box fontSize={'sm'}>© Copyright {(new Date().getFullYear())} Computer Science Students' Association</Box>
                             <Spacer />
                             <Link margin='0' rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
                                 <Image alt="Creative Commons Licence" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" />
@@ -40,7 +40,7 @@ export const Footer = () => {
                         {socials}
                     </Wrap>
                     <HStack paddingTop={'1rem'}>
-                        <Box fontSize={'sm'}>© Copyright 2023 Computer Science Students' Association</Box>
+                        <Box fontSize={'sm'}>© Copyright {(new Date().getFullYear())} Computer Science Students' Association</Box>
                         <Spacer />
                         <Link margin='0' rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
                             <Image alt="Creative Commons Licence" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" />
@@ -52,7 +52,7 @@ export const Footer = () => {
             <Box className="small-only">
                 <VStack spacing={4} alignItems='left'>
                     {socials}
-                    <Box fontSize={'sm'}>© Copyright 2023 Computer Science Students' Association</Box>
+                    <Box fontSize={'sm'}>© Copyright {(new Date().getFullYear())} Computer Science Students' Association</Box>
                     <Box fontSize={'sm'}>This work is licensed under a <Link rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</Link></Box>
                     <Link marginTop={'4'} minWidth={'7rem'} margin='0' rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
                         <Image marginTop={'4'} alt="Creative Commons Licence" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" />
