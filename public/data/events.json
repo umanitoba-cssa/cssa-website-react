@@ -1,14 +1,24 @@
 [ {
+    "aiseminar": {
+        "title": "Next Steps with Generative AI",
+        "to": "https://news.umanitoba.ca/exploring-the-ethics-and-future-of-generative-ai/",
+        "description": "Experts in generative AI technology will share their insights into artistic and academic opportunities along with legal and ethical implications of generative AI. Click on the title to register.",
+        "location": "Degrees Diner / Virtual",
+        "start": "31 Jan 2024 19:00:00 CST",
+        "end": "31 Jan 2024 20:30:00 CST",
+        "image": "/img/events/generativeai.png",
+        "status": ""
+    },
     "movie": {
-        "title": "CSSA Movie Night",
+        "title": "CSSA Watches Rango (Movie Night)",
         "to": "/movienight/",
         "description": "Join us for a movie night! Vote for the movie you want to watch on our Discord server. Click on the title to learn more.",
         "location": "Dafoe Library Room 160",
-        "start": "18 Jan 2024 17:00:00 CST",
-        "end": "18 Jan 2024 19:30:00 CST",
+        "start": "1 Feb 2024 17:30:00 CST",
+        "end": "1 Feb 2024 19:30:00 CST",
         "image": "/img/events/movienight.jpg",
-        "moviename" : "Teen Beach Movie",
-        "poster": "/img/events/movieposters/teenbeachmovie.png",
+        "moviename" : "Rango",
+        "poster": "/img/events/movieposters/rango.png",
         "status": ""
     },
     "meeting":{
@@ -19,16 +29,7 @@
         "end": "22 Jan 2024 18:00:00 CST",
         "image": "/img/events/agmw24.png",
         "status": ""
-    },
-    "aiseminar": {
-        "title": "Next Steps with Generative AI",
-        "to": "https://news.umanitoba.ca/exploring-the-ethics-and-future-of-generative-ai/",
-        "description": "Experts in generative AI technology will share their insights into artistic and academic opportunities along with legal and ethical implications of generative AI. Click on the title to register.",
-        "location": "Degrees Diner / Virtual",
-        "start": "31 Jan 2024 19:00:00 CST",
-        "end": "31 Jan 2024 20:30:00 CST",
-        "image": "/img/events/generativeai.png",
-        "status": ""
     }
+    
 }
 ]
