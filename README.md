@@ -32,13 +32,17 @@ You can update the displayed list of events in the file at `./public/data/events
 
 ```json
 [
-    {
-        "title": "string",
-        "description": "string",
-        "location": "string",
-        "time": "date time string*",
-        "image": "img url",
-        "to": "url (optional)"
+    "eventname": {
+        "title": "Event Title",
+        "to": "link to page (optional)",
+        "description": "Description",
+        "location": "Location",
+        "start": "date time string (remember time zones)",
+        "end": "date time string (remember time zones)",
+        "image": "/img/events/headerimage.jpg(adjustable)",
+        "moviename" : "Movie Name (only for movie event),
+        "poster": "/img/events/movieposters/poster.png (only for movie)",
+        "status": "" (This can be used for providing updates to the event, shows up in bold text under the card)
     },
     ...
 ]
