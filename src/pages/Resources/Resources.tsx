@@ -124,7 +124,7 @@ export const Resources = () => {
         return(
             <Box fontSize={'sm'}>
                 <li>
-                    <HStack>
+                    <HStack style={{'display': 'inline-flex'}}>
                         <Heading fontSize={'md'}>{item.title} ({dateText})</Heading>
                         <LinkIcon/>
                         <Link href={item.url} isExternal>YouTube</Link>
