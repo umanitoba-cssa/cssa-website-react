@@ -27,7 +27,7 @@ export const ProfileCard = ({ name, position, image, linkedin, github, website, 
                     </AspectRatio>
                 </Box>
                 <Box flexGrow={1} p='0rem 1rem 0.6rem 1rem' margin='0 !important'>
-                    <Heading fontSize={'xl'} marginBottom='0.5rem'>{name}</Heading>
+                    <Heading fontSize={'xl'} marginBottom='0.5rem' maxWidth={'13rem'}>{name}</Heading>
                     <Box fontSize='lg'>{position}</Box>
                     <Flex marginTop={'0.5rem'} flexDir={'row'} justifyContent='space-around'>
                         {linkedinElem}
