@@ -10,15 +10,15 @@
         "status": ""
     },
     "movie": {
-        "title": "CSSA Watches Rango (Movie Night)",
+        "title": "CSSA Watches Barbie (Movie Night)",
         "to": "/movienight/",
         "description": "Join us for a movie night! Vote for the movie you want to watch on our Discord server. Click on the title to learn more.",
         "location": "Dafoe Library Room 160",
-        "start": "1 Feb 2024 17:30:00 CST",
-        "end": "1 Feb 2024 19:30:00 CST",
-        "image": "/img/events/movienight.jpg",
-        "moviename" : "Rango",
-        "poster": "/img/events/movieposters/rango.png",
+        "start": "15 Feb 2024 17:30:00 CST",
+        "end": "15 Feb 2024 19:30:00 CST",
+        "image": "/img/events/movieposters/barbieposter.png",
+        "moviename" : "Barbie as the Princess and the Pauper",
+        "poster": "/img/events/movieposters/barbieposter.png",
         "status": ""
     },
     "meeting":{
