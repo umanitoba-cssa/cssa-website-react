@@ -6,6 +6,7 @@ import { Sponsors } from "../pages/Sponsors/Sponsors";
 import { Team } from "../pages/Team/Team";
 import { Email } from "../pages/Email/Email";
 import { MovieNight } from "../pages/MovieNight/MovieNight";
+import { Goosies } from "../pages/Goosies/Goosies";
 
 interface IRoute {
     path: string;
@@ -45,6 +46,11 @@ export const Routes: IRoute[] = [
         component: (<Contact/>)
     },
     {
+        title: 'Goosies',
+        path: '/Goosies',
+        component: (<Goosies/>)
+    },
+    {
         title: '',
         path: '/Email',
         component: (<Email/>)
@@ -54,4 +60,5 @@ export const Routes: IRoute[] = [
         path: '/MovieNight',
         component: (<MovieNight/>)
     }
+    
 ]
