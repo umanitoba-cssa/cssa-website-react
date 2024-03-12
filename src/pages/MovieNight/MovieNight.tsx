@@ -48,7 +48,7 @@ export const MovieNight = () => {
                         The movie will be on {startTime} and be hosted in the {movie.location} <br />
                     </Text>
                     <br />
-                    <AspectRatio ratio={1 / 1}>
+                    <AspectRatio ratio={9 / 12.73}>
                     <Image src={movie.poster} />
                 </AspectRatio>
                     
