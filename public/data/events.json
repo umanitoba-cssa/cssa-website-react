@@ -1,14 +1,14 @@
 [ {
     "movie": {
-        "title": "CSSA x WICS Movie Night: Turning Red",
+        "title": "CSSA Movie Night: Swiss Army Man",
         "to": "/movienight/",
         "description": "Join us for a movie night! Vote for the movie you want to watch on our Discord server. Click on the title to learn more.",
         "location": "Dafoe Library Room 160",
-        "start": "28 Feb 2024 16:30:00 CST",
-        "end": "28 Feb 2024 18:30:00 CST",
-        "image": "/img/events/movieposters/turningredposter.png",
-        "moviename" : "Turning Red",
-        "poster": "/img/events/movieposters/turningredposter.png",
+        "start": "14 Mar 2024 17:30:00 CST",
+        "end": "14 Mar 2024 18:30:00 CST",
+        "image": "/img/events/movieposters/swissarmyman.jpg",
+        "moviename" : "Swiss Army Man",
+        "poster": "/img/events/movieposters/swissarmyman.jpg",
         "status": ""
     },
     "meeting":{
@@ -18,25 +18,6 @@
         "start": "22 Jan 2024 17:00:00 CST",
         "end": "22 Jan 2024 18:00:00 CST",
         "image": "/img/events/agmw24.png",
-        "status": ""
-    },
-    "powerpoint": {
-        "title": "CSSA Powerpoint Night",
-        "to": "https://forms.office.com/r/YZGMpW95bG",
-        "description": "Join us for a night of sharing presentations, fun, and community. Apply to present your own powerpoint by clicking on the title.",
-        "location": "Drake Center 140",
-        "start": "1 Mar 2024 18:00:00 CST",
-        "end": "1 Mar 2024 20:30:00 CST",
-        "image": "/img/events/pptnight.png",
-        "status": ""
-    },
-    "csseminar": {
-        "title": "Jason Hong: Helping developers with privacy",
-        "description": "Join us for a seminar with Jason Hong, a professor at Carnegie Mellon University, as he discusses his work on privacy and security in software development.",
-        "location": "Degrees Diner / Virtual",
-        "start": "6 Mar 2024 14:30:00 CST",
-        "end": "6 Mar 2024 16:30:00 CST",
-        "image": "/img/events/hongseminar.png",
         "status": ""
     }
 }
