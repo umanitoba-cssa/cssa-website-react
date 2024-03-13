@@ -22,8 +22,8 @@ export const Goosies = () => {
         
 
     return (
-        <PageLayout title="GOOS!ES!!!!!!!!!?!?!?!?!?!?" image="/img/backgrounds/home.jpg">
-            <EventTeaser title="Goosies" image="/img/events/goosies.png">
+        <PageLayout title="The Goosies!" image="/img/backgrounds/home.jpg">
+            <EventTeaser title="The Goosies" image="/img/events/goosies.png">
             <Text>
             Ready for the "BEST" AWARD show, for the Computer Science community by the Computer Science 
             community? Come join us for this end-of-term event for lots of giggles and fun!
@@ -50,11 +50,12 @@ export const Goosies = () => {
                 <Box fontSize={'me'}>Semi-Formal Dress</Box>
             </HStack>
             <br></br>
+            <Text>Tickets and voting are not available currently, check back later!</Text>
             <HStack>
-                <Button colorScheme="facebook" size='lg'><Link href='https://umanitobacssa.ca'>Register Here</Link></Button>
+                <Button colorScheme="gray" size='lg'><Link href='#'>Register Here</Link></Button>
                 //make bigger
                 <br></br>
-                <Button colorScheme="facebook" size='lg'><Link href='https://umanitobacssa.ca'>Vote Here</Link></Button>
+                <Button colorScheme="gray" size='lg'><Link href='#'>Vote Here</Link></Button>
             </HStack>
             </EventTeaser> 
         </PageLayout>
