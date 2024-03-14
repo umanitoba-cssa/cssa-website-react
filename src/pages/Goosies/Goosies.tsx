@@ -6,7 +6,6 @@ import { FaRegClock, FaTshirt } from 'react-icons/fa';
 
 export const Goosies = () => {
         
-
     return (
         <PageLayout title="The Goosies!" image="/img/backgrounds/home.jpg">
             <EventTeaser title="The Goosies" image="/img/events/goosies.png">
