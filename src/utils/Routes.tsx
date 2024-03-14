@@ -46,7 +46,7 @@ export const Routes: IRoute[] = [
         component: (<Contact/>)
     },
     {
-        title: 'Goosies',
+        title: '',
         path: '/Goosies',
         component: (<Goosies/>)
     },
