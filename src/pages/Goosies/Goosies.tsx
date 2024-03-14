@@ -20,7 +20,7 @@ export const Goosies = () => {
             </Text>
             <br></br>
             <Text>
-            Registration is required, so we know how many people to expect and so we can serve you well!
+            Registration is required so we know how many people to expect and we can be prepared!
             </Text>
             <br></br>
             <HStack>
