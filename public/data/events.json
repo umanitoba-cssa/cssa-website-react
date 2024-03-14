@@ -21,22 +21,13 @@
         "status": ""
     },
     "powerpoint": {
-        "title": "CSSA Powerpoint Night",
-        "to": "https://forms.office.com/r/YZGMpW95bG",
-        "description": "Join us for a night of sharing presentations, fun, and community. Apply to present your own powerpoint by clicking on the title.",
-        "location": "Drake Center 140",
-        "start": "1 Mar 2024 18:00:00 CST",
-        "end": "1 Mar 2024 20:30:00 CST",
-        "image": "/img/events/pptnight.png",
-        "status": ""
-    },
-    "csseminar": {
-        "title": "Jason Hong: Helping developers with privacy",
-        "description": "Join us for a seminar with Jason Hong, a professor at Carnegie Mellon University, as he discusses his work on privacy and security in software development.",
-        "location": "Degrees Diner / Virtual",
-        "start": "6 Mar 2024 14:30:00 CST",
-        "end": "6 Mar 2024 16:30:00 CST",
-        "image": "/img/events/hongseminar.png",
+        "title": "The Goosies",
+        "to": "/goosies/",
+        "description": "The \"BEST\" AWARD show, for the Computer Science community by the Computer Science community. Click on the title to learn more and to register.",
+        "location": "VW's Social Club",
+        "start": "5 Apr 2024 18:00:00 CDT",
+        "end": "5 Apr 2024 20:30:00 CDT",
+        "image": "/img/events/goosies.png",
         "status": ""
     }
 }

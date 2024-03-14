@@ -41,6 +41,12 @@ export const Home = () => {
 
     return (
         <PageLayout title="Home" image="/img/backgrounds/home.jpg">
+            <DividerHeading title='Upcoming Events' />
+            {/* This should be dynamic! Hook up to GCalendar or something. Will look into it.*/}
+            <SimpleGrid columns={{ sm: 2, md: 2, lg: 3, xl: 4 }} spacing={10} justifyContent='center'>
+                {eventCards}
+            </SimpleGrid>
+            <DividerHeading title='Who we are' />
             <Text>
                 The Computer Science Students’ Association (CSSA) is the
                 official voice and community for computer science students
@@ -87,11 +93,6 @@ export const Home = () => {
                     who can assist students with their needs and interests.
                 </Text>
             </Teaser>
-            <DividerHeading title='Events' />
-            {/* This should be dynamic! Hook up to GCalendar or something. Will look into it.*/}
-            <SimpleGrid columns={{ sm: 2, md: 2, lg: 3, xl: 4 }} spacing={10} justifyContent='center'>
-                {eventCards}
-            </SimpleGrid>
         </PageLayout>
     );
 }
