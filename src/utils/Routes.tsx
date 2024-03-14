@@ -60,5 +60,4 @@ export const Routes: IRoute[] = [
         path: '/MovieNight',
         component: (<MovieNight/>)
     }
-    
 ]

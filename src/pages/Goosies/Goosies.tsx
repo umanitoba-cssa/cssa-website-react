@@ -20,7 +20,7 @@ export const Goosies = () => {
             </Text>
             <br></br>
             <Text>
-            Registration is required, so we know how many people to expect so we can serve you well!
+            Registration is required, so we know how many people to expect and so we can serve you well!
             </Text>
             <br></br>
             <HStack>
@@ -39,7 +39,6 @@ export const Goosies = () => {
             <Text>Tickets and voting are not available currently, check back later!</Text>
             <HStack>
                 <Button colorScheme="gray" size='lg'><Link href='#'>Register Here</Link></Button>
-                //make bigger
                 <br></br>
                 <Button colorScheme="gray" size='lg'><Link href='#'>Vote Here</Link></Button>
             </HStack>
