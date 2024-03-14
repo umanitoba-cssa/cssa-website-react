@@ -19,6 +19,16 @@
         "end": "22 Jan 2024 18:00:00 CST",
         "image": "/img/events/agmw24.png",
         "status": ""
+    },
+    "goosies": {
+        "title": "The Goosies",
+        "to": "/goosies/",
+        "description": "The \"BEST\" AWARD show, for the Computer Science community by the Computer Science community. Click on the title to learn more and to register.",
+        "location": "VW's Social Club",
+        "start": "5 Apr 2024 18:00:00 CDT",
+        "end": "5 Apr 2024 20:30:00 CDT",
+        "image": "/img/events/goosies.png",
+        "status": ""
     }
 }
 ]
