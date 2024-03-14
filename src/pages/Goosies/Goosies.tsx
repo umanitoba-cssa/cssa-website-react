@@ -4,20 +4,6 @@ import { EventTeaser } from "../../components/EventTeaser/EventTeaser";
 import { MdOutlineLocationOn } from 'react-icons/md';
 import { FaRegClock, FaTshirt } from 'react-icons/fa';
 
-interface IMovieData {
-    movie: string;
-    title: string;
-    image: string;
-    start: string;
-    end: string;
-    location: string;
-    to: string;
-    description: string;
-    status: string;
-    moviename: string;
-    poster: string;
-}
-
 export const Goosies = () => {
         
 
