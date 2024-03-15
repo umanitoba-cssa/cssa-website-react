@@ -35,9 +35,9 @@ export const Goosies = () => {
                 <Box fontSize={'me'}>Semi-Formal Dress</Box>
             </HStack>
             <br></br>
-            <Text>Tickets and voting are not available currently, check back later!</Text>
+            <Text>Voting will open March 18th, Tickets available now!</Text>
             <HStack>
-                <Button colorScheme="gray" size='lg'><Link href='#'>Register Here</Link></Button>
+                <Button colorScheme="facebook" size='lg'><Link href='https://square.link/u/lNcWoEiJ'>Register Here</Link></Button>
                 <br></br>
                 <Button colorScheme="gray" size='lg'><Link href='#'>Vote Here</Link></Button>
             </HStack>
