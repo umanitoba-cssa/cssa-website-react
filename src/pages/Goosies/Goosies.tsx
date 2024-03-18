@@ -35,11 +35,11 @@ export const Goosies = () => {
                 <Box fontSize={'me'}>Semi-Formal Dress</Box>
             </HStack>
             <br></br>
-            <Text>Voting will open March 18th, Tickets available now!</Text>
+            <Text>Voting and Tickets now available! This is an 18+ event, please drink responsibly</Text>
             <HStack>
                 <Button colorScheme="facebook" size='lg'><Link href='https://square.link/u/lNcWoEiJ'>Register Here</Link></Button>
                 <br></br>
-                <Button colorScheme="gray" size='lg'><Link href='#'>Vote Here</Link></Button>
+                <Button colorScheme="facebook" size='lg'><Link href='https://forms.office.com/r/CCPv8rb34F'>Vote Here</Link></Button>
             </HStack>
             </EventTeaser> 
         </PageLayout>
