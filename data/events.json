@@ -1,0 +1,34 @@
+[ {
+    "movie": {
+        "title": "CSSA Movie Night: Swiss Army Man",
+        "to": "/movienight/",
+        "description": "Join us for a movie night! Vote for the movie you want to watch on our Discord server. Click on the title to learn more.",
+        "location": "Dafoe Library Room 160",
+        "start": "14 Mar 2024 17:30:00 CDT",
+        "end": "14 Mar 2024 18:30:00 CDT",
+        "image": "/img/events/movieposters/swissarmyman.jpg",
+        "moviename" : "Swiss Army Man",
+        "poster": "/img/events/movieposters/swissarmyman.jpg",
+        "status": ""
+    },
+    "meeting":{
+        "title": "CSSA Winter 2024 General Meeting",
+        "description": "Join us for our official Winter 2024 General Meeting where we will vote on changes to our constitution and discuss upcoming plans for the CSSA!",
+        "location": "Armes 209 (SSA Lounge)",
+        "start": "22 Jan 2024 17:00:00 CST",
+        "end": "22 Jan 2024 18:00:00 CST",
+        "image": "/img/events/agmw24.png",
+        "status": ""
+    },
+    "goosies": {
+        "title": "The Goosies",
+        "to": "/goosies/",
+        "description": "The \"BEST\" AWARD show, for the Computer Science community by the Computer Science community. Click on the title to learn more and to register.",
+        "location": "VW's Social Club",
+        "start": "5 Apr 2024 20:00:00 CDT",
+        "end": "6 Apr 2024 02:00:00 CDT",
+        "image": "/img/events/goosies.png",
+        "status": ""
+    }
+}
+]
