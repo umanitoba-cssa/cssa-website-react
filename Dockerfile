@@ -1,23 +1,34 @@
-FROM oven/bun
-
-# Copy the lock and package file
-COPY bun.lockb .
-COPY package.json .
-
-# Install dependencies
-RUN bun install --frozen-lockfile
-
-# Copy your source code
-# If only files in the src folder changed, this is the only step that gets executed!
-#COPY src ./src
-#COPY public ./public
-
-COPY ./ ./
-
-#RUN bun run build
-
-#COPY index.ts build/index.ts
+FROM node:18-alpine 
+# Uncomment the line above if you want to use a Dockerfile instead of templateId
 
 
-CMD ["bun", "run", "start"]
-#CMD ["python", "-m", "http.server", "8000"]
+RUN apk update && apk upgrade && \
+    apk add --no-cache git
+RUN mkdir -p /usr/src/app
+WORKDIR /usr/src/app
+COPY ./ /usr/src/app/
+RUN npm ci
+#run --production && npm cache clean --force
+#COPY ./ /usr/src/app
+RUN npm run build
+
+
+
+WORKDIR /usr/src/app
+ENV NODE_ENV=production
+
+RUN addgroup --system --gid 1001 nodejs && adduser --system --uid 1001 nextjs
+
+USER nextjs
+
+ENV PORT=3000
+EXPOSE 3000
+
+CMD [ "npm", "run", "start"]
+# , "--", "-H", "0.0.0.0", "-p", "80" ]
+
+
+# server.js is created by next build from the standalone output
+# https://nextjs.org/docs/pages/api-reference/next-config-js/output
+# ENV HOSTNAME="0.0.0.0"
+# CMD ["node", "server.js"]
